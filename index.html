@@ -1,0 +1,3486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="artifact-type" content="tool">
+  <meta name="design-style" content="nocturne">
+  <title>Daily Vibrational Calibration — 10 Laws of Spiritual Physics</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9i2SxA-TBWqoAjEVbJK6zzxmLsVJOhVXpPup4EiBMAmNYh5zbrXdxvTGAUXoeuNbZfguFLJ1azbaYwYOb25gIlQSzJ1Q3MuzGjiJ1JinTYJYbb876iuTPuZ92Yce_guoaO9QH-MNFhMj7JiwDk2H1c_Qa_coSR5EtrTzuk35KBBPL5giI87sAjuYH7KT7iIU8y9veu_Q0huTMxwS6lZP1MWBmKllPVDUKTv5PDKQuzuXFca7JXjJR-i9FZj9C2KqZrUiG7ReGEPHRfQbEseL4fSqhTugWoiKGcH_0lXzPd9eJekTn0s8krTcO82aOx4RPyAhpN_-2mUVkPHbzS4pAw" charset="UTF-8"></script><script src="https://unpkg.com/lucide@1.43.0/dist/umd/lucide.min.js"></script>
+  <style>
+    :root {
+      color-scheme: dark;
+
+      /* Page and surfaces: Prussian midnight steps */
+      --background: #0a101d;
+      --surface-container-low: #0e1626;
+      --surface-container: #111b2e;
+      --surface-container-high: #17243c;
+
+      /* Text */
+      --on-surface: #f2ece1;
+      --on-surface-variant: #9ba8bf;
+
+      /* Borders */
+      --outline: #384d73;
+      --outline-variant: #21304d;
+
+      /* Accents */
+      --primary: #dfaa5b;
+      --on-primary: #0a101d;
+      --primary-container: #2b261c;
+      --on-primary-container: #f5dcb0;
+      --secondary: #687a99;
+      --tertiary: #7cc4e8;
+      --error: #f27474;
+      --on-error: #1a0606;
+
+      /* Data series */
+      --data-1: #dfaa5b;
+      --data-2: #7cc4e8;
+      --data-3: #52d19c;
+      --data-4: #e07a5f;
+      --data-context: #4a5d80;
+
+      /* Semantic */
+      --positive: #52d19c;
+      --warning: #e8b954;
+      --focus: var(--primary);
+
+      /* Fonts */
+      --font-headline: 'EB Garamond', serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+      --font-label: 'JetBrains Mono', monospace;
+
+      /* Shape */
+      --rounded: 0.25rem;
+      --rounded-lg: 0.375rem;
+      --rounded-full: 9999px;
+
+      /* Style effects */
+      --hairline: 1px solid var(--outline-variant);
+      --hairline-strong: 1px solid var(--outline);
+      --panel-highlight: inset 0 1px 0 rgba(242, 236, 225, 0.05);
+      --brass-glow: radial-gradient(circle at 88% 12%, rgba(223, 170, 91, 0.08), transparent 45%);
+      --heading-tracking: -0.015em;
+      --label-tracking: 0.06em;
+      --sky-tint: color-mix(in srgb, var(--tertiary) 12%, transparent);
+      --brass-tint: color-mix(in srgb, var(--primary) 14%, transparent);
+      --mint-tint: color-mix(in srgb, var(--positive) 12%, transparent);
+      --coral-tint: color-mix(in srgb, var(--data-4) 14%, transparent);
+      --error-tint: color-mix(in srgb, var(--error) 14%, transparent);
+
+      /* Type scale (Focused Tool) */
+      --display-size: clamp(1.9rem, 1.45rem + 1.5vw, 2.75rem);
+      --headline-size: clamp(1.3rem, 1.12rem + 0.6vw, 1.65rem);
+      --subhead-size: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+      --body-size: clamp(0.9375rem, 0.9rem + 0.15vw, 1rem);
+      --label-size: 0.75rem;
+
+      /* Spacing scale (4pt base) */
+      --space-xs: 0.25rem;
+      --space-sm: 0.5rem;
+      --space-md: 1rem;
+      --space-lg: 1.5rem;
+      --space-xl: 2.5rem;
+      --space-2xl: 4rem;
+      --space-3xl: 6rem;
+
+      /* Motion */
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+      --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+      --dur-micro: 120ms;
+      --dur-short: 220ms;
+      --dur-medium: 280ms;
+      --dur-long: 420ms;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body {
+      overflow-x: clip;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background);
+      color: var(--on-surface);
+      font-family: var(--font-body);
+      font-size: var(--body-size);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    header { position: static !important; }
+
+    .page-grid {
+      display: grid;
+      gap: var(--space-xl);
+      padding: var(--space-lg);
+      max-width: 1200px;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    .page-grid * { min-width: 0; }
+
+    /* Focus rings */
+    :focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    /* Hero Observatory Header */
+    .hero-header {
+      background-color: var(--background);
+      background-image: var(--brass-glow);
+      border-bottom: var(--hairline);
+      padding-bottom: var(--space-xl);
+    }
+    .hero-top-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: var(--space-lg);
+    }
+    .hero-title-wrap { max-width: 65ch; }
+    .title {
+      font-family: var(--font-headline);
+      font-weight: 500;
+      font-size: var(--display-size);
+      letter-spacing: var(--heading-tracking);
+      line-height: 1.08;
+      color: var(--on-surface);
+      margin: 0;
+    }
+    .title em {
+      font-style: italic;
+      font-weight: 400;
+      color: var(--primary);
+    }
+    .deck-brass {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      letter-spacing: var(--label-tracking);
+      text-transform: uppercase;
+      color: var(--primary);
+      margin: var(--space-xs) 0 0 0;
+    }
+    .hero-lede {
+      color: var(--on-surface-variant);
+      margin: var(--space-md) 0 0 0;
+      max-width: 64ch;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      align-items: center;
+    }
+
+    /* Typography helpers */
+    .section-title {
+      font-family: var(--font-headline);
+      font-weight: 500;
+      font-size: var(--headline-size);
+      letter-spacing: var(--heading-tracking);
+      line-height: 1.12;
+      color: var(--on-surface);
+      margin: 0;
+    }
+    .section-title em {
+      font-style: italic;
+      font-weight: 400;
+      color: var(--primary);
+    }
+    .coord-label {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      letter-spacing: var(--label-tracking);
+      text-transform: uppercase;
+      color: var(--tertiary);
+    }
+    .mono-label {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      letter-spacing: var(--label-tracking);
+      text-transform: uppercase;
+      color: var(--on-surface-variant);
+    }
+    .mono-value {
+      font-family: var(--font-label);
+      font-variant-numeric: tabular-nums;
+      font-weight: 500;
+    }
+    .serif-figure {
+      font-family: var(--font-headline);
+      font-weight: 500;
+      font-variant-numeric: tabular-nums;
+      font-size: clamp(1.65rem, 1.35rem + 0.9vw, 2.25rem);
+      line-height: 1.05;
+      color: var(--on-surface);
+    }
+
+    /* Panels & Observation Wells */
+    .panel {
+      background: var(--surface-container);
+      border: var(--hairline);
+      box-shadow: var(--panel-highlight);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+    }
+    .observation-well {
+      background: var(--background);
+      border: var(--hairline);
+      border-radius: var(--rounded);
+      padding: var(--space-md);
+      color: var(--on-surface);
+    }
+
+    /* Telemetry Strip */
+    .telemetry-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+      gap: var(--space-md);
+    }
+    .telemetry-tile {
+      background: var(--surface-container);
+      border: var(--hairline);
+      box-shadow: var(--panel-highlight);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md) var(--space-lg);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+    }
+    .telemetry-sub {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      color: var(--on-surface-variant);
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+      background: var(--sky-tint);
+      color: var(--tertiary);
+      border: 1px solid color-mix(in srgb, var(--tertiary) 35%, transparent);
+      border-radius: var(--rounded);
+      padding: var(--space-xs) var(--space-sm);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      letter-spacing: var(--label-tracking);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .badge-brass {
+      background: var(--brass-tint);
+      color: var(--primary);
+      border-color: color-mix(in srgb, var(--primary) 35%, transparent);
+    }
+    .badge-mint {
+      background: var(--mint-tint);
+      color: var(--positive);
+      border-color: color-mix(in srgb, var(--positive) 35%, transparent);
+    }
+    .badge-coral {
+      background: var(--coral-tint);
+      color: var(--data-4);
+      border-color: color-mix(in srgb, var(--data-4) 35%, transparent);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-sm);
+      min-height: 44px;
+      padding: 0 var(--space-md);
+      border-radius: var(--rounded);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 500;
+      letter-spacing: var(--label-tracking);
+      text-transform: uppercase;
+      cursor: pointer;
+      border: var(--hairline-strong);
+      background: transparent;
+      color: var(--on-surface);
+      transition: background-color var(--dur-micro) var(--ease-out),
+                  color var(--dur-micro) var(--ease-out),
+                  box-shadow var(--dur-micro) var(--ease-out),
+                  transform var(--dur-micro) var(--ease-out);
+    }
+    .btn:hover:not(:disabled) {
+      background: var(--surface-container-high);
+    }
+    .btn:active:not(:disabled) {
+      transform: translateY(1px);
+    }
+    .btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: var(--on-primary);
+      border-color: var(--primary);
+    }
+    .btn-primary:hover:not(:disabled) {
+      background: color-mix(in srgb, var(--primary) 88%, var(--on-surface));
+    }
+    .btn-sky {
+      background: var(--sky-tint);
+      color: var(--tertiary);
+      border-color: color-mix(in srgb, var(--tertiary) 45%, transparent);
+    }
+    .btn-sky:hover:not(:disabled) {
+      background: color-mix(in srgb, var(--tertiary) 22%, transparent);
+    }
+    .btn-mint {
+      background: var(--mint-tint);
+      color: var(--positive);
+      border-color: color-mix(in srgb, var(--positive) 45%, transparent);
+    }
+    .btn-mint:hover:not(:disabled) {
+      background: color-mix(in srgb, var(--positive) 22%, transparent);
+    }
+    .btn-coral {
+      background: var(--coral-tint);
+      color: var(--data-4);
+      border-color: color-mix(in srgb, var(--data-4) 45%, transparent);
+    }
+    .btn-coral:hover:not(:disabled) {
+      background: color-mix(in srgb, var(--data-4) 22%, transparent);
+    }
+    .btn-sm {
+      min-height: 36px;
+      padding: 0 var(--space-sm);
+    }
+    .btn.is-active {
+      background: var(--brass-tint);
+      color: var(--primary);
+      border-color: var(--primary);
+      box-shadow: 0 0 0 1px color-mix(in srgb, var(--primary) 40%, transparent);
+    }
+
+    /* Form Controls */
+    .field-group {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+    }
+    .field-label {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      letter-spacing: var(--label-tracking);
+      text-transform: uppercase;
+      color: var(--on-surface-variant);
+    }
+    .input, .select, .textarea {
+      width: 100%;
+      min-height: 44px;
+      background: var(--background);
+      border: var(--hairline-strong);
+      border-radius: var(--rounded);
+      padding: 0.625rem 0.75rem;
+      color: var(--on-surface);
+      font-family: var(--font-body);
+      font-size: var(--body-size);
+      transition: box-shadow var(--dur-micro) var(--ease-out), background-color var(--dur-micro) var(--ease-out);
+    }
+    .select {
+      padding-right: 2.25rem;
+    }
+    .textarea {
+      min-height: 84px;
+      resize: vertical;
+      line-height: 1.5;
+    }
+    .input:hover, .select:hover, .textarea:hover {
+      background: var(--surface-container-low);
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+      gap: var(--space-md);
+      align-items: end;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--primary);
+      cursor: pointer;
+      min-height: 36px;
+    }
+
+    /* 10-Law Observatory Navigator Grid */
+    .law-index-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+      gap: var(--space-sm);
+    }
+    .law-nav-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-sm);
+      min-height: 48px;
+      padding: var(--space-sm) var(--space-md);
+      background: var(--surface-container-low);
+      border: var(--hairline);
+      border-radius: var(--rounded);
+      color: var(--on-surface);
+      cursor: pointer;
+      text-align: left;
+      transition: background-color var(--dur-micro) var(--ease-out), box-shadow var(--dur-micro) var(--ease-out);
+    }
+    .law-nav-btn:hover {
+      background: var(--surface-container-high);
+    }
+    .law-nav-btn.is-done {
+      border-color: color-mix(in srgb, var(--positive) 45%, transparent);
+      background: color-mix(in srgb, var(--positive) 6%, var(--surface-container-low));
+    }
+    .law-nav-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 0;
+    }
+    .law-nav-num {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      color: var(--primary);
+      letter-spacing: var(--label-tracking);
+    }
+    .law-nav-name {
+      font-size: 0.875rem;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .law-status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: var(--rounded-full);
+      border: 1.5px solid var(--outline);
+      flex-shrink: 0;
+    }
+    .law-nav-btn.is-done .law-status-dot {
+      background: var(--positive);
+      border-color: var(--positive);
+    }
+
+    /* Law Module Section */
+    .law-section {
+      border-top: var(--hairline);
+      padding-top: var(--space-xl);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-lg);
+      scroll-margin-top: var(--space-lg);
+    }
+    .law-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: var(--space-md);
+    }
+    .law-heading-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+      max-width: 68ch;
+    }
+    .law-lede {
+      color: var(--on-surface-variant);
+      margin: 0;
+      font-size: var(--body-size);
+    }
+    .law-workspace {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+      gap: var(--space-lg);
+      align-items: start;
+    }
+    .law-workspace.reverse {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+    }
+
+    /* Collapsible Source Reference Protocol */
+    details.protocol-drawer {
+      background: var(--surface-container-low);
+      border: var(--hairline);
+      border-radius: var(--rounded);
+      padding: var(--space-sm) var(--space-md);
+    }
+    details.protocol-drawer summary {
+      cursor: pointer;
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      letter-spacing: var(--label-tracking);
+      text-transform: uppercase;
+      color: var(--tertiary);
+      padding: var(--space-xs) 0;
+      min-height: 36px;
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+    }
+    .protocol-body {
+      padding-top: var(--space-sm);
+      border-top: var(--hairline);
+      margin-top: var(--space-sm);
+      color: var(--on-surface-variant);
+      font-size: 0.9rem;
+    }
+    .protocol-body ul {
+      margin: var(--space-xs) 0 0 0;
+      padding-left: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+    }
+
+    /* Canvas Containers */
+    .canvas-box {
+      position: relative;
+      width: 100%;
+      min-height: 260px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .canvas-box canvas {
+      display: block;
+      width: 100%;
+      height: 260px;
+    }
+    .canvas-box.tall canvas {
+      height: 300px;
+    }
+
+    /* Lists & Entries */
+    .entry-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+      max-height: 340px;
+      overflow-y: auto;
+    }
+    .entry-item {
+      background: var(--background);
+      border: var(--hairline);
+      border-radius: var(--rounded);
+      padding: var(--space-sm) var(--space-md);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: var(--space-md);
+    }
+    .entry-item.is-dissolved {
+      border-color: color-mix(in srgb, var(--positive) 45%, transparent);
+      background: color-mix(in srgb, var(--positive) 6%, var(--background));
+    }
+    .entry-item.is-shadow {
+      border-left: 3px solid var(--data-4);
+    }
+    .empty-state {
+      background: var(--background);
+      border: var(--hairline);
+      border-radius: var(--rounded);
+      padding: var(--space-lg);
+      text-align: left;
+      color: var(--on-surface-variant);
+    }
+    .empty-state strong {
+      color: var(--on-surface);
+      display: block;
+      margin-bottom: var(--space-xs);
+    }
+
+    /* Diagnostic / Inline Messages */
+    .inline-msg {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      color: var(--tertiary);
+      min-height: 1.25rem;
+    }
+    .inline-msg.is-error { color: var(--error); }
+    .inline-msg.is-positive { color: var(--positive); }
+
+    /* Chip Row */
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+
+    /* Checklist Grid */
+    .checklist-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+      gap: var(--space-lg);
+    }
+    .check-row {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      min-height: 44px;
+      padding: var(--space-xs) var(--space-sm);
+      border-radius: var(--rounded);
+      cursor: pointer;
+      transition: background-color var(--dur-micro) var(--ease-out);
+    }
+    .check-row:hover {
+      background: var(--surface-container-high);
+    }
+    .check-row input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--primary);
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    /* Container Queries for Panels */
+    .panel-container { container-type: inline-size; }
+    @container (max-width: 440px) {
+      .stat-pair { grid-template-columns: 1fr !important; }
+    }
+    .stat-pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-md);
+    }
+
+    /* Audio Equalizer Indicator */
+    .audio-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-md);
+      background: var(--surface-container-low);
+      border: var(--hairline);
+      border-radius: var(--rounded);
+      padding: var(--space-sm) var(--space-md);
+    }
+
+    /* Responsive Mobile Breakpoint */
+    @media (max-width: 640px) {
+      .page-grid {
+        padding: var(--space-md);
+        gap: var(--space-lg);
+      }
+      .law-workspace,
+      .law-workspace.reverse {
+        grid-template-columns: 1fr;
+      }
+      .stat-pair {
+        grid-template-columns: 1fr;
+      }
+      .panel {
+        padding: var(--space-md);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-grid">
+
+    <!-- HERO OBSERVATORY HEADER -->
+    <header class="hero-header">
+      <div class="hero-top-row">
+        <div class="hero-title-wrap">
+          <h1 class="title">Daily Vibrational <em>Calibration</em></h1>
+          <p class="deck-brass">10 Laws of Spiritual Physics · Instrument &amp; Practice Observatory</p>
+          <p class="hero-lede">
+            You do not manifest what you want; you manifest what you resonate. Use this daily observatory to diagnose your calibration on the Hawkins scale, tune your words and biofield, transmute dense energy, and collapse time through anticipatory gratitude.
+          </p>
+        </div>
+        <div class="hero-actions">
+          <button type="button" class="btn btn-sky" onclick="exportCalibrationLog()">
+            <i data-lucide="download" aria-hidden="true" width="16" height="16"></i>
+            Export Log
+          </button>
+          <button type="button" class="btn" id="btn-reset-day" onclick="resetDailyProgress(this)">
+            <i data-lucide="rotate-ccw" aria-hidden="true" width="16" height="16"></i>
+            Reset Today
+          </button>
+        </div>
+      </div>
+
+      <!-- LIVE TELEMETRY STRIP -->
+      <div class="telemetry-grid" style="margin-top: var(--space-lg);">
+        <div class="telemetry-tile">
+          <span class="coord-label">Hawkins Calibration</span>
+          <div class="serif-figure" id="tel-calibration">200 · Courage</div>
+          <span class="telemetry-sub" id="tel-realm">Power Realm · Integrity Threshold</span>
+        </div>
+        <div class="telemetry-tile">
+          <span class="coord-label">Daily Practice Progress</span>
+          <div class="serif-figure" id="tel-progress">0 / 10 Laws</div>
+          <span class="telemetry-sub" id="tel-ritual-count">0 / 10 Ritual Checks Complete</span>
+        </div>
+        <div class="telemetry-tile">
+          <span class="coord-label">Circulation &amp; Hydration</span>
+          <div class="serif-figure" id="tel-flow">0% Flow · 0/8 Water</div>
+          <span class="telemetry-sub" id="tel-orbit">0 Microcosmic Cycles · 0d Retention</span>
+        </div>
+        <div class="telemetry-tile">
+          <span class="coord-label">Active Acoustic Field</span>
+          <div class="serif-figure" id="tel-audio">Silent</div>
+          <div style="display:flex; align-items:center; gap:var(--space-sm); margin-top:2px;">
+            <span class="telemetry-sub" id="tel-audio-sub">No oscillator active</span>
+            <button type="button" class="btn btn-sm" id="btn-global-mute" onclick="stopAllAudio()" style="display:none;">Stop Tone</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10-LAW OBSERVATORY INDEX -->
+      <div style="margin-top: var(--space-lg);">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-sm);">
+          <span class="mono-label">Observatory Instrument Index — Jump to Law</span>
+          <span class="mono-label" id="today-date-label">Session</span>
+        </div>
+        <div class="law-index-grid" id="law-nav-grid"></div>
+      </div>
+    </header>
+
+    <!-- ========================================================= -->
+    <!-- LAW 1: SCALE OF CONSCIOUSNESS (HAWKINS MAP & CALIBRATION) -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="law-1">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Law 01 · Logarithmic GPS (1–1,000)</span>
+          <h2 class="section-title">The Scale of <em>Consciousness</em></h2>
+          <p class="law-lede">Below 200 is the realm of Force (survival, effort, victimhood). At 200 (Courage), you cross into Power. Because the scale is logarithmic, one individual at Love (500) counteracts 750,000 individuals in Fear (100).</p>
+        </div>
+        <button type="button" class="btn" id="mark-law-1" onclick="toggleLawPracticed(1)">Mark Law 01 Practiced</button>
+      </div>
+
+      <div class="law-workspace">
+        <!-- Left: Interactive SVG Hawkins Dial -->
+        <div class="panel panel-container">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Hawkins Calibration Dial</span>
+            <span class="badge badge-brass" id="l1-realm-badge">Power Realm (200+)</span>
+          </div>
+
+          <div class="observation-well" style="display:flex; flex-direction:column; align-items:center; gap:var(--space-md);">
+            <svg id="hawkins-svg" viewBox="0 0 380 220" width="100%" style="max-width:420px; overflow:visible;" aria-label="Hawkins Consciousness Calibration Dial">
+              <!-- Outer Track Background -->
+              <path d="M 40 190 A 150 150 0 0 1 340 190" fill="none" stroke="var(--outline-variant)" stroke-width="18" stroke-linecap="round"/>
+              <!-- Force Arc (20 to 199) -->
+              <path d="M 40 190 A 150 150 0 0 1 167 42" fill="none" stroke="var(--data-4)" stroke-width="14" stroke-linecap="round" opacity="0.75"/>
+              <!-- Power Arc (200 to 499) -->
+              <path d="M 173 41 A 150 150 0 0 1 285 75" fill="none" stroke="var(--data-2)" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+              <!-- Mastery Arc (500 to 600+) -->
+              <path d="M 290 79 A 150 150 0 0 1 340 190" fill="none" stroke="var(--data-1)" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
+              <!-- 200 Integrity Threshold Notch -->
+              <line x1="170" y1="26" x2="170" y2="56" stroke="var(--positive)" stroke-width="3"/>
+              <text x="170" y="18" text-anchor="middle" fill="var(--positive)" font-family="var(--font-label)" font-size="10">200 THRESHOLD</text>
+              <!-- Level Node Markers injected via JS -->
+              <g id="hawkins-nodes"></g>
+              <!-- Needle -->
+              <g id="hawkins-needle" transform="rotate(-10 190 190)">
+                <line x1="190" y1="190" x2="190" y2="54" stroke="var(--primary)" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="190" cy="190" r="8" fill="var(--primary)" stroke="var(--background)" stroke-width="2"/>
+              </g>
+              <text x="190" y="155" text-anchor="middle" fill="var(--on-surface)" font-family="var(--font-headline)" font-size="34" font-weight="500" id="svg-l1-num">200</text>
+              <text x="190" y="176" text-anchor="middle" fill="var(--primary)" font-family="var(--font-label)" font-size="11" letter-spacing="1.5" id="svg-l1-name">COURAGE</text>
+            </svg>
+
+            <div style="width:100%;" class="field-group">
+              <label class="field-label" for="l1-level-select">Select Current Emotional Calibration</label>
+              <select class="select" id="l1-level-select" onchange="setHawkinsLevel(Number(this.value))"></select>
+            </div>
+          </div>
+
+          <div class="stat-pair" style="margin-top:var(--space-md);">
+            <div class="observation-well">
+              <span class="mono-label">Vibratory Glasses Lens</span>
+              <p id="l1-glasses" style="margin:var(--space-xs) 0 0 0; font-size:0.9rem; color:var(--on-surface);"></p>
+            </div>
+            <div class="observation-well">
+              <span class="mono-label">Logarithmic Power Index</span>
+              <div class="mono-value" id="l1-log-power" style="font-size:1.15rem; color:var(--primary); margin-top:var(--space-xs);"></div>
+              <p id="l1-counterweight" style="margin:var(--space-xs) 0 0 0; font-size:0.85rem; color:var(--on-surface-variant);"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: 4-Domain Brutal Self-Diagnosis -->
+        <div class="panel">
+          <span class="coord-label">Litmus Test · Center of Gravity</span>
+          <h3 class="section-title" style="font-size:1.35rem; margin-top:var(--space-xs);">Honest 4-Domain Self-Diagnosis</h3>
+          <p class="law-lede" style="margin-top:var(--space-xs); margin-bottom:var(--space-md);">
+            The ego claims 400 or 500, but your life is the litmus test. Rate where each domain truly vibrates today—force (struggle) or power (flow).
+          </p>
+
+          <div style="display:flex; flex-direction:column; gap:var(--space-md);">
+            <div class="field-group">
+              <div style="display:flex; justify-content:space-between;">
+                <label class="field-label" for="diag-finances">Finances (Struggle vs. Flow)</label>
+                <span class="mono-value" id="diag-finances-val" style="color:var(--primary);">200</span>
+              </div>
+              <input type="range" id="diag-finances" min="20" max="600" step="5" value="200" oninput="updateDomainDiagnosis('finances', Number(this.value))">
+            </div>
+            <div class="field-group">
+              <div style="display:flex; justify-content:space-between;">
+                <label class="field-label" for="diag-relationships">Relationships (Control vs. Freedom)</label>
+                <span class="mono-value" id="diag-relationships-val" style="color:var(--primary);">200</span>
+              </div>
+              <input type="range" id="diag-relationships" min="20" max="600" step="5" value="200" oninput="updateDomainDiagnosis('relationships', Number(this.value))">
+            </div>
+            <div class="field-group">
+              <div style="display:flex; justify-content:space-between;">
+                <label class="field-label" for="diag-health">Vitality &amp; Health (Exhaustion vs. Energy)</label>
+                <span class="mono-value" id="diag-health-val" style="color:var(--primary);">200</span>
+              </div>
+              <input type="range" id="diag-health" min="20" max="600" step="5" value="200" oninput="updateDomainDiagnosis('health', Number(this.value))">
+            </div>
+            <div class="field-group">
+              <div style="display:flex; justify-content:space-between;">
+                <label class="field-label" for="diag-silence">Default Emotion in Silence</label>
+                <span class="mono-value" id="diag-silence-val" style="color:var(--primary);">200</span>
+              </div>
+              <input type="range" id="diag-silence" min="20" max="600" step="5" value="200" oninput="updateDomainDiagnosis('silence', Number(this.value))">
+            </div>
+          </div>
+
+          <div class="observation-well" style="margin-top:var(--space-md);">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm);">
+              <span class="mono-label">True Center of Gravity</span>
+              <span class="mono-value" id="diag-avg" style="font-size:1.25rem; color:var(--tertiary);">200 · Courage</span>
+            </div>
+            <p id="diag-ascent-step" style="margin:var(--space-sm) 0 0 0; font-size:0.9rem; color:var(--on-surface-variant);"></p>
+          </div>
+        </div>
+      </div>
+
+      <details class="protocol-drawer">
+        <summary>Law 01 Protocol · Engineering the Ascent</summary>
+        <div class="protocol-body">
+          <ul>
+            <li><strong>Radical Truth:</strong> Admit your true emotion without judgment; admitting Fear (100) instantly elevates you to Courage (200) and Acceptance (350).</li>
+            <li><strong>Energy Diet:</strong> Eliminate sensationalist news, horror, violent media, and gossip; replace with classical music, nature, and genuine laughter.</li>
+            <li><strong>Orientation to Service:</strong> Ask daily, <em>"How can I be useful today?"</em> Service places you in Love (500) where fear cannot coexist.</li>
+            <li><strong>Forgiveness:</strong> Resentment tethers you to Anger (150); forgiveness cuts the anchor so your baseline rises.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- LAW 2: CYMATICS OF THE WORD (CHLADNI + DECREE PLAYER)     -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="law-2">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Law 02 · Sonic Creation &amp; Genetic Scripting</span>
+          <h2 class="section-title">The Cymatics of <em>the Word</em></h2>
+          <p class="law-lede">Sound precedes form. Just as Hans Jenny’s oscillator arranges chaotic sand into sacred geometry, your voice and internal dialogue structure your cellular water and DNA.</p>
+        </div>
+        <button type="button" class="btn" id="mark-law-2" onclick="toggleLawPracticed(2)">Mark Law 02 Practiced</button>
+      </div>
+
+      <div class="law-workspace reverse">
+        <!-- Left: Chladni Cymatic Canvas + Decree Player -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Chladni Sand Resonance Plate</span>
+            <span class="badge" id="cymatic-mode-label">528 Hz · Sacred Geometry</span>
+          </div>
+
+          <div class="observation-well canvas-box" style="padding:0;">
+            <canvas id="cymatic-canvas" aria-label="Interactive Chladni sand pattern visualization"></canvas>
+          </div>
+
+          <div class="chip-row" style="margin-top:var(--space-md);">
+            <button type="button" class="btn btn-sm" onclick="setCymaticPattern('chaos', 125)">Chaos (Junk Words)</button>
+            <button type="button" class="btn btn-sm" onclick="setCymaticPattern('rings', 200)">200 Hz · Courage</button>
+            <button type="button" class="btn btn-sm" onclick="setCymaticPattern('hex', 432)">432 Hz · Order</button>
+            <button type="button" class="btn btn-sm is-active" id="btn-cym-mandala" onclick="setCymaticPattern('mandala', 528)">528 Hz · Mandala</button>
+            <button type="button" class="btn btn-sm" onclick="setCymaticPattern('star', 600)">600 Hz · Peace</button>
+          </div>
+
+          <div class="observation-well" style="margin-top:var(--space-md);">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm);">
+              <span class="coord-label">2-Minute Morning Decree Player</span>
+              <span class="mono-value" id="decree-timer" style="color:var(--primary);">02:00</span>
+            </div>
+            <blockquote id="decree-active-text" style="margin:var(--space-sm) 0; padding-left:var(--space-md); border-left:2px solid var(--primary); font-family:var(--font-headline); font-size:1.25rem; color:var(--on-surface);">
+              “I am the power that creates my life. Today I activate the frequency of miracles.”
+            </blockquote>
+            <div style="display:flex; flex-wrap:wrap; gap:var(--space-sm); align-items:center;">
+              <button type="button" class="btn btn-primary" id="btn-decree-play" onclick="toggleDecreePlayer()">
+                <i data-lucide="play" aria-hidden="true" width="16" height="16"></i>
+                Start 2-Min Decree
+              </button>
+              <button type="button" class="btn" onclick="nextDecreeLine()">Next Decree</button>
+              <label class="check-row" style="min-height:36px; margin-left:auto;">
+                <input type="checkbox" id="decree-audio-toggle" checked>
+                <span class="mono-label">Harmonic Tone</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Semantic Immunity + I AM Sanctifier -->
+        <div class="panel">
+          <span class="coord-label">Semantic Immunity · Verbal Diet</span>
+          <h3 class="section-title" style="font-size:1.35rem; margin-top:var(--space-xs);">Descriptive vs. Generative Alchemist</h3>
+          <p class="law-lede" style="margin-top:var(--space-xs); margin-bottom:var(--space-md);">
+            Test any sentence you catch yourself saying. Purge words of doubt or lack and convert them into prescriptive decrees.
+          </p>
+
+          <div class="field-group">
+            <label class="field-label" for="semantic-input">Audit a Phrase or Habitual Thought</label>
+            <input type="text" class="input" id="semantic-input" placeholder="e.g., I'll try to earn money, or I am tired" oninput="analyzeSemanticPhrase(this.value)">
+          </div>
+
+          <div class="chip-row" style="margin-top:var(--space-sm);">
+            <button type="button" class="btn btn-sm" onclick="testSemanticExample(`I will try to start tomorrow`)">“Try”</button>
+            <button type="button" class="btn btn-sm" onclick="testSemanticExample(`Hopefully things improve`)">“Hopefully”</button>
+            <button type="button" class="btn btn-sm" onclick="testSemanticExample(`I need more money`)">“I need”</button>
+            <button type="button" class="btn btn-sm" onclick="testSemanticExample(`I hate this traffic`)">“I hate”</button>
+            <button type="button" class="btn btn-sm" onclick="testSemanticExample(`I can't figure this out`)">“I can't”</button>
+            <button type="button" class="btn btn-sm" onclick="testSemanticExample(`I am exhausted and broke`)">“I am (Negative)”</button>
+          </div>
+
+          <div class="observation-well" style="margin-top:var(--space-md);" id="semantic-output-box">
+            <span class="mono-label">Prescriptive Transmutation</span>
+            <p id="semantic-diagnosis" style="margin:var(--space-xs) 0; color:var(--on-surface-variant); font-size:0.9rem;">
+              Select a low-frequency phrase above or type your own to inspect its cymatic signature.
+            </p>
+            <p id="semantic-rewrite" style="margin:0; font-family:var(--font-headline); font-size:1.2rem; color:var(--positive);"></p>
+          </div>
+
+          <div class="field-group" style="margin-top:var(--space-md);">
+            <label class="field-label" for="custom-iam-input">Sanctify Your Personal “I AM” Decree</label>
+            <div class="form-row">
+              <input type="text" class="input" id="custom-iam-input" value="I am a coherent channel of abundance and peace.">
+              <button type="button" class="btn btn-sky" onclick="saveCustomIam()">Lock Decree</button>
+            </div>
+            <span class="inline-msg" id="iam-save-msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <details class="protocol-drawer">
+        <summary>Law 02 Protocol · Abracadabra &amp; Sacred Silence</summary>
+        <div class="protocol-body">
+          <ul>
+            <li><strong>Abracadabra:</strong> From Aramaic — <em>“I create as I speak.”</em> Speak health while healing, abundance while building, never locking present lack into permanence.</li>
+            <li><strong>Protect “I AM”:</strong> Never attach unwanted identity to <em>I AM</em>; replace <em>“I am tired”</em> with <em>“I am experiencing temporary tiredness.”</em></li>
+            <li><strong>Truth &amp; Silence:</strong> Lying fractures subconscious coherence. Avoid broadcasting unhatched plans so internal steam builds creative pressure.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- LAW 3: PRINCIPLE OF ENTRAINMENT (FREQUENCIES & AUDIT)     -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="law-3">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Law 03 · Huygens Synchronization &amp; Mirror Neurons</span>
+          <h2 class="section-title">The Principle of <em>Entrainment</em></h2>
+          <p class="law-lede">Oscillating systems in proximity synchronize automatically. Become a thermostat that regulates the room’s frequency rather than a thermometer reacting to it.</p>
+        </div>
+        <button type="button" class="btn" id="mark-law-3" onclick="toggleLawPracticed(3)">Mark Law 03 Practiced</button>
+      </div>
+
+      <div class="law-workspace">
+        <!-- Left: Audio Frequency Generator & Interference Oscilloscope -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Acoustic Entrainment Synthesizer</span>
+            <span class="badge" id="l3-active-freq-badge">Standby</span>
+          </div>
+
+          <div class="observation-well canvas-box" style="padding:0; min-height:200px;">
+            <canvas id="entrainment-canvas" style="height:200px;" aria-label="Entrainment wave synchronization oscilloscope"></canvas>
+          </div>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(min(155px, 100%), 1fr)); gap:var(--space-sm); margin-top:var(--space-md);">
+            <button type="button" class="btn" id="freq-btn-432" onclick="playEntrainmentFreq(432, `432 Hz · Space Clearing`)">
+              <i data-lucide="waves" aria-hidden="true" width="16" height="16"></i>
+              432 Hz Clear
+            </button>
+            <button type="button" class="btn" id="freq-btn-528" onclick="playEntrainmentFreq(528, `528 Hz · Cellular Harmony`)">
+              <i data-lucide="sparkles" aria-hidden="true" width="16" height="16"></i>
+              528 Hz Repair
+            </button>
+            <button type="button" class="btn" id="freq-btn-783" onclick="playEntrainmentFreq(7.83, `7.83 Hz · Schumann Earth`)">
+              <i data-lucide="globe" aria-hidden="true" width="16" height="16"></i>
+              7.83 Hz Earth
+            </button>
+            <button type="button" class="btn btn-coral" onclick="stopAllAudio()">
+              <i data-lucide="volume-x" aria-hidden="true" width="16" height="16"></i>
+              Silence
+            </button>
+          </div>
+
+          <div class="field-group" style="margin-top:var(--space-md);">
+            <div style="display:flex; justify-content:space-between;">
+              <label class="field-label" for="audio-volume">Synthesizer Gain</label>
+              <span class="mono-value" id="audio-volume-val">18%</span>
+            </div>
+            <input type="range" id="audio-volume" min="2" max="45" value="18" oninput="setAudioVolume(Number(this.value))">
+          </div>
+
+          <p class="telemetry-sub" style="margin:var(--space-sm) 0 0 0;">
+            Note: 7.83 Hz Schumann resonance is synthesized via pure stereo binaural entrainment (136.10 Hz left / 143.93 Hz right) for clear audibility.
+          </p>
+        </div>
+
+        <!-- Right: 5-Person & Environment Audit -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm);">
+            <div>
+              <span class="coord-label">Mirror Neuron Proximity</span>
+              <h3 class="section-title" style="font-size:1.35rem; margin-top:var(--space-xs);">Top-5 Circle Audit</h3>
+            </div>
+            <button type="button" class="btn btn-sm" onclick="loadSampleAudit()">Load Example</button>
+          </div>
+
+          <div class="form-row" style="margin-top:var(--space-md);">
+            <div class="field-group">
+              <label class="field-label" for="audit-name">Person / Feed / Space</label>
+              <input type="text" class="input" id="audit-name" placeholder="e.g., Morning Mastermind">
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="audit-score">Energy Impact (1–10)</label>
+              <input type="number" class="input" id="audit-score" min="1" max="10" value="7">
+            </div>
+            <button type="button" class="btn btn-primary" onclick="addAuditPerson()">Add Node</button>
+          </div>
+          <span class="inline-msg" id="audit-msg"></span>
+
+          <div class="entry-list" id="audit-list" style="margin-top:var(--space-sm);"></div>
+
+          <div class="observation-well" style="margin-top:var(--space-md); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm);">
+            <div>
+              <span class="mono-label">Average Field Resonance</span>
+              <div class="mono-value" id="audit-avg-score" style="font-size:1.25rem; color:var(--primary);">— / 10</div>
+            </div>
+            <span id="audit-verdict" class="badge">Add up to 5 contacts</span>
+          </div>
+        </div>
+      </div>
+
+      <details class="protocol-drawer">
+        <summary>Law 03 Protocol · Shielding &amp; Environmental Clearing</summary>
+        <div class="protocol-body">
+          <ul>
+            <li><strong>Vitamin vs. Drainer:</strong> Elevate, limit exposure, or eliminate chronic drainers; seek rooms where others’ certainty lifts you upward (Mastermind constructive interference).</li>
+            <li><strong>Detached Observer &amp; Light Bubble:</strong> In dense spaces, witness drama without jumping into the emotional pool and affirm: <em>“Only love enters; all dissonance reflects away.”</em></li>
+            <li><strong>Physical &amp; Digital Diet:</strong> Clear clutter and broken objects; mute outrage-driven social algorithms so mirror neurons stop rehearsing scarcity.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- LAW 4: MEMORY OF WATER & VIBRATIONAL NUTRITION            -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="law-4">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Law 04 · Liquid Crystal &amp; Biophotons</span>
+          <h2 class="section-title">Memory of Water &amp; <em>Vibrational Nutrition</em></h2>
+          <p class="law-lede">99% of your molecules are water—a programmable liquid crystal (Pollack’s fourth-phase EZ water). Revive dead tap water via filtration, spiral vortexing, and conscious intention.</p>
+        </div>
+        <button type="button" class="btn" id="mark-law-4" onclick="toggleLawPracticed(4)">Mark Law 04 Practiced</button>
+      </div>
+
+      <div class="law-workspace reverse">
+        <!-- Left: Water Intention Charger -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Water Alchemist Chamber</span>
+            <span class="badge badge-mint" id="water-glasses-badge">0 / 8 Glasses Charged</span>
+          </div>
+
+          <div class="observation-well canvas-box" style="padding:0;">
+            <canvas id="water-canvas" aria-label="Hexagonal EZ water crystal charging visualizer"></canvas>
+          </div>
+
+          <div class="form-row" style="margin-top:var(--space-md);">
+            <div class="field-group">
+              <label class="field-label" for="water-intention-select">Imprint Word / Frequency</label>
+              <select class="select" id="water-intention-select" onchange="setWaterIntention(this.value)">
+                <option value="Love &amp; Gratitude (540)">Love &amp; Gratitude (540)</option>
+                <option value="Perfect Cellular Health">Perfect Cellular Health</option>
+                <option value="Light &amp; Clarity">Light &amp; Clarity</option>
+                <option value="Abundant Flow">Abundant Flow</option>
+              </select>
+            </div>
+            <button type="button" class="btn" onclick="triggerWaterStep('filter')">1. Filter</button>
+            <button type="button" class="btn btn-sky" onclick="triggerWaterStep('vortex')">2. Vortex Swirl</button>
+            <button type="button" class="btn btn-primary" onclick="triggerWaterStep('imprint')">3. Imprint &amp; Drink</button>
+          </div>
+          <p class="inline-msg" id="water-status-msg" style="margin-top:var(--space-sm);">Step 1: Filter chlorine &amp; fluoride, swirl to restore spiral flow, then hold with gratitude.</p>
+        </div>
+
+        <!-- Right: Biophoton & Digestive Alchemy -->
+        <div class="panel">
+          <span class="coord-label">Eating Light · Biophoton Check</span>
+          <h3 class="section-title" style="font-size:1.35rem; margin-top:var(--space-xs);">Digestive Alchemy &amp; Autophagy</h3>
+          <p class="law-lede" style="margin-top:var(--space-xs); margin-bottom:var(--space-md);">
+            Digestion uses up to 60–70% of vital energy. Never eat in anger or stress—pause, bless your food to structure its water, or rest in fasting clarity.
+          </p>
+
+          <div class="stat-pair">
+            <div class="observation-well">
+              <span class="mono-label">Blessed Meals Today</span>
+              <div class="serif-figure" id="meals-blessed-count" style="margin:var(--space-xs) 0;">0</div>
+              <button type="button" class="btn btn-sm btn-mint" onclick="logBlessedMeal()">Bless Calm Meal (+1)</button>
+            </div>
+            <div class="observation-well">
+              <span class="mono-label">Fasting Window (Hours)</span>
+              <div class="serif-figure" id="fasting-hours-display" style="margin:var(--space-xs) 0;">14h</div>
+              <input type="range" id="fasting-slider" min="8" max="36" value="14" aria-label="Fasting Window Hours" oninput="setFastingHours(Number(this.value))">
+            </div>
+          </div>
+
+          <div class="observation-well" style="margin-top:var(--space-md);">
+            <span class="mono-label">Bio-Feedback Pendulum Check</span>
+            <p style="margin:var(--space-xs) 0 var(--space-sm) 0; font-size:0.9rem; color:var(--on-surface-variant);">
+              Before eating or wearing synthetic materials, sense your body’s subtle lean:
+            </p>
+            <div class="chip-row">
+              <span class="badge badge-mint">Expansion = Living Biophotons / Linen</span>
+              <span class="badge badge-coral">Contraction = Refined Sugar / Stress</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <details class="protocol-drawer">
+        <summary>Law 04 Protocol · Cellular Water &amp; Frequency Killers</summary>
+        <div class="protocol-body">
+          <ul>
+            <li><strong>Structured EZ Water:</strong> Straight pipes and plastic stagnate water’s hexagonal structure; swirl water in a glass and speak gratitude before drinking.</li>
+            <li><strong>Frequency Killers:</strong> Minimize alcohol (“body-eating spirit”), refined sugars, factory-farmed meat carrying panic cortisol, and heavy-metal noise antennas.</li>
+            <li><strong>Skin Absorption:</strong> Natural fibers (linen, cotton, wool, silk) allow bioelectric flow; synthetics obstruct skin resonance.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- LAW 5: LAW OF EGREGORS (PENDULUM SIMULATOR & AIKIDO)      -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="law-5">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Law 05 · Collective Thought Fields &amp; Pendulums</span>
+          <h2 class="section-title">The Law of <em>Egregors</em></h2>
+          <p class="law-lede">Collective thought fields survive by provoking attention—both adoration and outrage feed the pendulum. Starve destructive egregors through benevolent indifference, humor, or energetic aikido.</p>
+        </div>
+        <button type="button" class="btn" id="mark-law-5" onclick="toggleLawPracticed(5)">Mark Law 05 Practiced</button>
+      </div>
+
+      <div class="law-workspace">
+        <!-- Left: Interactive Pendulum Physics Canvas -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Pendulum Hook Simulation</span>
+            <span class="badge" id="pendulum-state-badge">Sovereign Neutrality</span>
+          </div>
+
+          <div class="observation-well canvas-box" style="padding:0;">
+            <canvas id="pendulum-canvas" aria-label="Interactive egregor pendulum physics simulation"></canvas>
+          </div>
+
+          <div class="chip-row" style="margin-top:var(--space-md);">
+            <button type="button" class="btn btn-sm btn-coral" onclick="triggerPendulumResponse('outrage')">Feed: Outrage / Fight</button>
+            <button type="button" class="btn btn-sm btn-coral" onclick="triggerPendulumResponse('fear')">Feed: Panic / Fear</button>
+            <button type="button" class="btn btn-sm btn-mint" onclick="triggerPendulumResponse('indifference')">Starve: Indifference</button>
+            <button type="button" class="btn btn-sm btn-sky" onclick="triggerPendulumResponse('aikido')">Redirect: Aikido</button>
+            <button type="button" class="btn btn-sm btn-primary" onclick="triggerPendulumResponse('humor')">Break: Humor</button>
+          </div>
+          <p class="inline-msg" id="pendulum-feedback" style="margin-top:var(--space-sm);">Test how reacting feeds the collective swing versus letting it collapse into the void.</p>
+        </div>
+
+        <!-- Right: Psychic Attack Symptoms & Defense Protocols -->
+        <div class="panel">
+          <span class="coord-label">Sovereignty Audit</span>
+          <h3 class="section-title" style="font-size:1.35rem; margin-top:var(--space-xs);">Check for Egregor Infection</h3>
+          <p class="law-lede" style="margin-top:var(--space-xs); margin-bottom:var(--space-md);">
+            “To whom am I giving my attention right now?” Spot the 4 signs of a hooked aura and deploy the right shield.
+          </p>
+
+          <div style="display:flex; flex-direction:column; gap:var(--space-xs);">
+            <label class="check-row">
+              <input type="checkbox" onchange="toggleEgregorSymptom('obsession', this.checked)" id="sym-obsession">
+              <span>Repetitive imaginary mental arguments (induced loop)</span>
+            </label>
+            <label class="check-row">
+              <input type="checkbox" onchange="toggleEgregorSymptom('mood', this.checked)" id="sym-mood">
+              <span>Abrupt fury or gloom right after checking news/social feeds</span>
+            </label>
+            <label class="check-row">
+              <input type="checkbox" onchange="toggleEgregorSymptom('exhaustion', this.checked)" id="sym-exhaustion">
+              <span>Sudden exhaustion after crowded malls or tense gatherings</span>
+            </label>
+            <label class="check-row">
+              <input type="checkbox" onchange="toggleEgregorSymptom('rigidity', this.checked)" id="sym-rigidity">
+              <span>Mental rigidity—believing “my side has 100% truth”</span>
+            </label>
+          </div>
+
+          <div class="observation-well" style="margin-top:var(--space-md);">
+            <span class="mono-label">Recommended Tactical Frame</span>
+            <p id="egregor-tactic-text" style="margin:var(--space-xs) 0 0 0; font-size:0.9rem; color:var(--on-surface);">
+              Use <strong>Renting Yourself Out</strong> at work: perform your role impeccably as an actor, then take off the costume when the curtain falls.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <details class="protocol-drawer">
+        <summary>Law 05 Protocol · Failure of the Pendulum</summary>
+        <div class="protocol-body">
+          <ul>
+            <li><strong>Never Fight Anti-X:</strong> Protesting against war still vibrates in conflict (150); stand <em>for</em> peace (500) or ignore the hook.</li>
+            <li><strong>Energetic Aikido:</strong> With an agitated authority figure, partially agree (<em>“You’re right, let’s solve this”</em>) to remove resistance and redirect toward resolution.</li>
+            <li><strong>Build a Positive Egregor:</strong> Channel family and team attention into gratitude, excellence, and joy so external fear cannot penetrate.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- LAW 6: TRANSMUTATION OF SEXUAL ENERGY (MICROCOSMIC ORBIT) -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="law-6">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Law 06 · Vital Jing Alchemization</span>
+          <h2 class="section-title">Transmutation of <em>Sexual Energy</em></h2>
+          <p class="law-lede">Sexual desire is raw creative fuel. Instead of dissipating it into cheap dopamine, circulate the voltage up the spine via the Microcosmic Orbit and invest it directly into your craft.</p>
+        </div>
+        <button type="button" class="btn" id="mark-law-6" onclick="toggleLawPracticed(6)">Mark Law 06 Practiced</button>
+      </div>
+
+      <div class="law-workspace reverse">
+        <!-- Left: Microcosmic Orbit Breathwork Visualizer -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Microcosmic Orbit Breathwork</span>
+            <span class="badge badge-brass" id="orbit-phase-badge">Ready · Sit Straight</span>
+          </div>
+
+          <div class="observation-well" style="display:flex; flex-direction:column; align-items:center; gap:var(--space-md);">
+            <svg id="orbit-svg" viewBox="0 0 320 290" width="100%" style="max-width:340px;" aria-label="Microcosmic Orbit spine and front meridian breath visualizer">
+              <!-- Subtle anatomical reference silhouette -->
+              <circle cx="160" cy="54" r="24" fill="none" stroke="var(--outline-variant)" stroke-width="1.5"/>
+              <path d="M 122 92 C 122 80, 198 80, 198 92 L 208 215 C 208 242, 112 242, 112 215 Z" fill="none" stroke="var(--outline-variant)" stroke-width="1.5"/>
+              <!-- Governor Vessel (Back/Spine Path) -->
+              <path id="orbit-spine-path" d="M 160 236 C 85 210, 85 60, 160 34" fill="none" stroke="var(--data-2)" stroke-width="2" stroke-dasharray="4 4"/>
+              <!-- Conception Vessel (Front Path) -->
+              <path id="orbit-front-path" d="M 160 34 C 235 60, 235 210, 160 236" fill="none" stroke="var(--data-1)" stroke-width="2" stroke-dasharray="4 4"/>
+              <!-- Meridian Nodes -->
+              <circle cx="160" cy="236" r="6" fill="var(--surface-container-high)" stroke="var(--primary)" stroke-width="1.5"/>
+              <text x="160" y="258" text-anchor="middle" fill="var(--on-surface-variant)" font-family="var(--font-label)" font-size="9">ORIGIN · PELVIC FLOOR</text>
+              <circle cx="160" cy="34" r="6" fill="var(--surface-container-high)" stroke="var(--tertiary)" stroke-width="1.5"/>
+              <text x="160" y="20" text-anchor="middle" fill="var(--tertiary)" font-family="var(--font-label)" font-size="9">PINEAL · CROWN</text>
+              <text x="72" y="145" text-anchor="middle" fill="var(--data-2)" font-family="var(--font-label)" font-size="9">INHALE</text>
+              <text x="72" y="158" text-anchor="middle" fill="var(--on-surface-variant)" font-family="var(--font-label)" font-size="8">SPINE UP</text>
+              <text x="248" y="145" text-anchor="middle" fill="var(--data-1)" font-family="var(--font-label)" font-size="9">EXHALE</text>
+              <text x="248" y="158" text-anchor="middle" fill="var(--on-surface-variant)" font-family="var(--font-label)" font-size="8">FRONT DOWN</text>
+              <!-- Pulsing Breathing Halo -->
+              <circle id="orbit-halo" cx="160" cy="135" r="24" fill="var(--brass-tint)" stroke="var(--primary)" stroke-width="1" opacity="0.4"/>
+              <!-- Traveling Jing Energy Orb -->
+              <circle id="orbit-orb" cx="160" cy="236" r="10" fill="var(--primary)" stroke="var(--on-surface)" stroke-width="2"/>
+            </svg>
+
+            <div style="text-align:center;">
+              <div class="serif-figure" id="orbit-instruction" style="font-size:1.35rem; color:var(--on-surface);">Press Start to Circulate Jing</div>
+              <div class="mono-value" id="orbit-countdown" style="color:var(--tertiary); margin-top:var(--space-xs);">4s Inhale · 2s Crown Hold · 6s Exhale</div>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:var(--space-sm); justify-content:center;">
+              <button type="button" class="btn btn-primary" id="btn-orbit-toggle" onclick="toggleOrbitBreathwork()">
+                <i data-lucide="wind" aria-hidden="true" width="16" height="16"></i>
+                Start Orbit
+              </button>
+              <button type="button" class="btn" onclick="resetOrbitCounter()">Reset Session</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Conservation & Creative Turbine Investment -->
+        <div class="panel">
+          <span class="coord-label">Conservation &amp; Turbine</span>
+          <h3 class="section-title" style="font-size:1.35rem; margin-top:var(--space-xs);">Channel the Voltage Into Creation</h3>
+          <p class="law-lede" style="margin-top:var(--space-xs); margin-bottom:var(--space-md);">
+            Transmutation is not repression; it is attaching a pipe to the steam boiler so it turns a turbine. Redirect elevated energy immediately into high-value creation.
+          </p>
+
+          <div class="stat-pair">
+            <div class="observation-well">
+              <span class="mono-label">Orbits Circulated</span>
+              <div class="serif-figure" id="orbit-cycles-total" style="margin:var(--space-xs) 0;">0</div>
+              <span class="telemetry-sub">5–10 min distributes voltage</span>
+            </div>
+            <div class="observation-well">
+              <span class="mono-label">Vital Retention Streak</span>
+              <div class="serif-figure" id="retention-streak-display" style="margin:var(--space-xs) 0;">0 Days</div>
+              <div style="display:flex; gap:var(--space-xs);">
+                <button type="button" class="btn btn-sm btn-mint" onclick="adjustRetentionStreak(1)">+1 Day</button>
+                <button type="button" class="btn btn-sm" onclick="adjustRetentionStreak(-1)">Reset</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="field-group" style="margin-top:var(--space-md);">
+            <label class="field-label" for="orbit-turbine-goal">Immediate Creative Turbine Action</label>
+            <div class="form-row">
+              <input type="text" class="input" id="orbit-turbine-goal" value="Deep creative work">
+              <button type="button" class="btn btn-sky" onclick="saveTurbineGoal()">Commit Energy</button>
+            </div>
+            <span class="inline-msg" id="turbine-msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <details class="protocol-drawer">
+        <summary>Law 06 Protocol · Napoleon Hill &amp; Purity of Wiring</summary>
+        <div class="protocol-body">
+          <ul>
+            <li><strong>Close the Leak:</strong> Eliminate pornography to restore dopamine sensitivity and creative ambition.</li>
+            <li><strong>Step-by-Step Orbit:</strong> Contract pelvic floor on deep inhale pulling golden energy up each vertebra to the pineal; rest tongue on roof of mouth on exhale descending down the front.</li>
+            <li><strong>Clean the Wiring:</strong> High voltage into fear or anger amplifies distortion—pair sexual transmutation with meditation, truth, and service.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- LAW 7: LAW OF CIRCULATION (CURRENCY FLOW TRACKER)         -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="law-7">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Law 07 · Currency as Electrical Flow</span>
+          <h2 class="section-title">The Law of <em>Circulation</em></h2>
+          <p class="law-lede">Like the Sea of Galilee versus the Dead Sea, wealth stays alive only when both the inlet (inhale) and outlet (exhale) remain open. Bless bills as seeds and circulate 10% without fear.</p>
+        </div>
+        <button type="button" class="btn" id="mark-law-7" onclick="toggleLawPracticed(7)">Mark Law 07 Practiced</button>
+      </div>
+
+      <div class="law-workspace">
+        <!-- Left: Flow Metrics & Entry Form -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Galilee Hydraulic Flow Meter</span>
+            <button type="button" class="btn btn-sm" onclick="loadSampleCirculation()">Load Sample</button>
+          </div>
+
+          <div class="stat-pair">
+            <div class="observation-well">
+              <span class="mono-label">Inhale (Received)</span>
+              <div class="serif-figure" id="circ-inhale-total" style="color:var(--positive); margin-top:var(--space-xs);">$0</div>
+            </div>
+            <div class="observation-well">
+              <span class="mono-label">Exhale (Circulated)</span>
+              <div class="serif-figure" id="circ-exhale-total" style="color:var(--primary); margin-top:var(--space-xs);">$0</div>
+            </div>
+          </div>
+
+          <div class="observation-well" style="margin-top:var(--space-md);">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span class="mono-label">Secular Tithe (10% Target)</span>
+              <span class="mono-value" id="circ-tithe-status" style="color:var(--tertiary);">$0 / $0</span>
+            </div>
+            <div style="width:100%; height:8px; background:var(--surface-container); border-radius:var(--rounded-full); margin-top:var(--space-sm); overflow:hidden;">
+              <div id="circ-tithe-bar" style="width:0%; height:100%; background:var(--primary); transition:width var(--dur-short) var(--ease-out);"></div>
+            </div>
+          </div>
+
+          <div class="form-row" style="margin-top:var(--space-md);">
+            <div class="field-group">
+              <label class="field-label" for="circ-type">Flow Direction</label>
+              <select class="select" id="circ-type">
+                <option value="inhale">Inhale · Income / Gift Received</option>
+                <option value="exhale">Exhale · Happy Money Bill Paid</option>
+                <option value="tithe">Secular Tithe · 10% Given</option>
+                <option value="generosity">24h Generosity Act (Tip/Treat)</option>
+              </select>
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="circ-amount">Amount ($)</label>
+              <input type="number" class="input" id="circ-amount" min="0" step="1" value="25">
+            </div>
+          </div>
+          <div class="form-row" style="margin-top:var(--space-sm);">
+            <div class="field-group">
+              <label class="field-label" for="circ-note">Blessing / Gratitude Note</label>
+              <input type="text" class="input" id="circ-note" placeholder="e.g., Thank you electricity for warmth &amp; light">
+            </div>
+            <button type="button" class="btn btn-primary" onclick="addCirculationEntry()">Log Flow</button>
+          </div>
+          <span class="inline-msg" id="circ-msg"></span>
+        </div>
+
+        <!-- Right: Circulation Ledger & Ethics of Receiving -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Circulation Ledger</span>
+            <span class="badge badge-brass" id="circ-sea-badge">Open Channel</span>
+          </div>
+
+          <div class="entry-list" id="circ-list"></div>
+
+          <div class="observation-well" style="margin-top:var(--space-md);">
+            <span class="mono-label">Complete the Circuit · Receive Graciously</span>
+            <p style="margin:var(--space-xs) 0 0 0; font-size:0.9rem; color:var(--on-surface-variant);">
+              Never deflect compliments or gifts. Look the giver in the eye and affirm: <strong style="color:var(--on-surface);">“Thank you, I receive this with pleasure.”</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <details class="protocol-drawer">
+        <summary>Law 07 Protocol · Happy Money &amp; Law of Compensation</summary>
+        <div class="protocol-body">
+          <ul>
+            <li><strong>Arigato Money:</strong> Treat every bill as a receipt of blessings already enjoyed; bless funds as they leave so they return multiplied.</li>
+            <li><strong>Law of Compensation:</strong> Deliver more in use-value than you receive in cash, creating a positive energetic surplus in the cosmic ledger.</li>
+            <li><strong>Bless Others’ Wealth:</strong> Envy builds a brick wall; blessing another’s success entrains you to abundance.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- LAW 8: INTEGRATION OF THE SHADOW (MIRROR & HO'OPONOPONO)  -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="law-8">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Law 08 · Alchemizing the Basement</span>
+          <h2 class="section-title">Integration of <em>the Shadow</em></h2>
+          <p class="law-lede">Holding repressed traits underwater burns 80% of your energy. Use visceral irritation or envy as a mirror to reclaim hidden gold, then dissolve projections through Ho’oponopono.</p>
+        </div>
+        <button type="button" class="btn" id="mark-law-8" onclick="toggleLawPracticed(8)">Mark Law 08 Practiced</button>
+      </div>
+
+      <div class="law-workspace reverse">
+        <!-- Left: Mirror Journal Form -->
+        <div class="panel">
+          <span class="coord-label">The Mirror Mechanism</span>
+          <h3 class="section-title" style="font-size:1.35rem; margin-top:var(--space-xs);">Shadow Projection &amp; Alchemy</h3>
+
+          <div style="display:flex; flex-direction:column; gap:var(--space-md); margin-top:var(--space-md);">
+            <div class="field-group">
+              <label class="field-label" for="shadow-trigger">Who or What Triggered Irritation / Envy?</label>
+              <input type="text" class="input" id="shadow-trigger" placeholder="e.g., Colleague boasting in the meeting">
+            </div>
+            <div class="form-row">
+              <div class="field-group">
+                <label class="field-label" for="shadow-emotion">Raw Emotion (Lead)</label>
+                <select class="select" id="shadow-emotion" onchange="updateShadowAlchemyPreview(this.value)">
+                  <option value="anger">Anger / Irritation</option>
+                  <option value="fear">Fear / Anxiety</option>
+                  <option value="envy">Envy / Golden Shadow</option>
+                  <option value="arrogance">Judgment of Arrogance</option>
+                  <option value="lust">Lust / Craving</option>
+                </select>
+              </div>
+              <div class="field-group">
+                <label class="field-label" for="shadow-mirror">Where Am I Repressing This?</label>
+                <input type="text" class="input" id="shadow-mirror" placeholder="e.g., I suppress my own bold leadership">
+              </div>
+            </div>
+            <div class="observation-well">
+              <span class="mono-label">Transmuted Gold Gift</span>
+              <p id="shadow-alchemy-preview" style="margin:var(--space-xs) 0 0 0; color:var(--primary); font-size:0.95rem;"></p>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="addShadowEntry()">Log Shadow for Integration</button>
+            <span class="inline-msg" id="shadow-msg"></span>
+          </div>
+        </div>
+
+        <!-- Right: Ho'oponopono Dissolution Chamber -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Ho’oponopono Dissolution Chamber</span>
+            <span class="badge badge-mint" id="shadow-dissolved-count">0 Integrated</span>
+          </div>
+
+          <div class="observation-well" style="margin-bottom:var(--space-md);">
+            <span class="coord-label">4-Phrase Cellular Water Clearing</span>
+            <p style="margin:var(--space-xs) 0 0 0; font-family:var(--font-headline); font-size:1.25rem; color:var(--on-surface);">
+              “I am sorry · Please forgive me · Thank you · I love you”
+            </p>
+          </div>
+
+          <div class="entry-list" id="shadow-list"></div>
+        </div>
+      </div>
+
+      <details class="protocol-drawer">
+        <summary>Law 08 Protocol · Gestalt Dialogue &amp; Golden Shadow</summary>
+        <div class="protocol-body">
+          <ul>
+            <li><strong>Gestalt Coffee:</strong> Personify anxiety or rage in silence and ask: <em>“What are you protecting me from?”</em> Once heard, assume conscious command.</li>
+            <li><strong>The Golden Shadow:</strong> Intense admiration or envy reveals unowned brilliance chained in your own basement—dare to reclaim your light.</li>
+            <li><strong>Wholeness Over Perfection:</strong> <em>Holy</em>, <em>whole</em>, and <em>health</em> share one root. Integrate all instruments of your orchestra.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- LAW 9: DOPAMINE FASTING & SILENCE (MONK MODE TIMER)       -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="law-9">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Law 09 · Clearing Channel Noise</span>
+          <h2 class="section-title">Dopamine Fasting &amp; <em>Silence</em></h2>
+          <p class="law-lede">Cheap super-stimuli fry dopamine receptors and fracture your broadcast. Clear the static to descend from frantic High-Beta stress into intuitive Alpha and Theta waves.</p>
+        </div>
+        <button type="button" class="btn" id="mark-law-9" onclick="toggleLawPracticed(9)">Mark Law 09 Practiced</button>
+      </div>
+
+      <div class="law-workspace">
+        <!-- Left: Monk-Mode Chronometer -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Monk-Mode Chronometer</span>
+            <span class="badge" id="monk-phase-badge">High-Beta Clear Ready</span>
+          </div>
+
+          <div class="observation-well" style="display:flex; flex-direction:column; align-items:center; gap:var(--space-md);">
+            <svg viewBox="0 0 220 220" width="190" height="190" aria-label="Dopamine detox countdown ring">
+              <circle cx="110" cy="110" r="92" fill="none" stroke="var(--outline-variant)" stroke-width="10"/>
+              <circle id="monk-ring" cx="110" cy="110" r="92" fill="none" stroke="var(--primary)" stroke-width="10" stroke-linecap="round"
+                      stroke-dasharray="578" stroke-dashoffset="0" transform="rotate(-90 110 110)"/>
+              <text x="110" y="106" text-anchor="middle" fill="var(--on-surface)" font-family="var(--font-label)" font-size="26" font-weight="500" id="monk-time-text">60:00</text>
+              <text x="110" y="132" text-anchor="middle" fill="var(--tertiary)" font-family="var(--font-label)" font-size="10" letter-spacing="1" id="monk-mode-sub">SACRED HOUR</text>
+            </svg>
+
+            <div class="chip-row" style="justify-content:center;">
+              <button type="button" class="btn btn-sm is-active" id="preset-60" onclick="setMonkPreset(60, `Sacred Hour`)">60m Sacred Hour</button>
+              <button type="button" class="btn btn-sm" id="preset-90" onclick="setMonkPreset(90, `Deep Focus`)">90m Deep Focus</button>
+              <button type="button" class="btn btn-sm" id="preset-240" onclick="setMonkPreset(240, `Desert Crossing`)">4h Desert</button>
+              <button type="button" class="btn btn-sm" id="preset-1440" onclick="setMonkPreset(1440, `24h Monk Mode`)">24h Monk Mode</button>
+            </div>
+
+            <div style="display:flex; gap:var(--space-sm); flex-wrap:wrap; justify-content:center;">
+              <button type="button" class="btn btn-primary" id="btn-monk-start" onclick="toggleMonkTimer()">
+                <i data-lucide="timer" aria-hidden="true" width="16" height="16"></i>
+                Start Silence
+              </button>
+              <button type="button" class="btn" onclick="resetMonkTimer()">Reset</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Sacred Hour & Monk Rules -->
+        <div class="panel">
+          <span class="coord-label">Daily Hygiene Protocol</span>
+          <h3 class="section-title" style="font-size:1.35rem; margin-top:var(--space-xs);">Protect the Receptor Baseline</h3>
+
+          <div style="display:flex; flex-direction:column; gap:var(--space-xs); margin-top:var(--space-md);">
+            <label class="check-row">
+              <input type="checkbox" id="sacred-am" onchange="toggleSacredHour('am', this.checked)">
+              <span><strong>Morning Sacred Hour:</strong> First 60 min screen-free</span>
+            </label>
+            <label class="check-row">
+              <input type="checkbox" id="sacred-pm" onchange="toggleSacredHour('pm', this.checked)">
+              <span><strong>Evening Sacred Hour:</strong> Last 60 min screen-free</span>
+            </label>
+            <label class="check-row">
+              <input type="checkbox" id="rule-no-screens" onchange="toggleMonkRule('screens', this.checked)">
+              <span>Zero phone scrolling, breaking news, or feeds</span>
+            </label>
+            <label class="check-row">
+              <input type="checkbox" id="rule-no-audio" onchange="toggleMonkRule('audio', this.checked)">
+              <span>Walk without headphones—hear birds &amp; inner stillness</span>
+            </label>
+            <label class="check-row">
+              <input type="checkbox" id="rule-boredom" onchange="toggleMonkRule('boredom', this.checked)">
+              <span>Embrace pauses &amp; boredom to ignite Default Mode Network</span>
+            </label>
+          </div>
+
+          <div class="observation-well" style="margin-top:var(--space-md);">
+            <span class="mono-label">Sessions Completed · Wave Guide</span>
+            <p style="margin:var(--space-xs) 0 0 0; font-size:0.9rem; color:var(--on-surface-variant);">
+              <strong style="color:var(--primary);" id="monk-sessions-count">0 sessions</strong> completed. Endure the first 4–6 hours of “desert” restlessness to reach Alpha/Theta clarity (540 subtle joy).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <details class="protocol-drawer">
+        <summary>Law 09 Protocol · The Magic of Boredom &amp; Theta Genius</summary>
+        <div class="protocol-body">
+          <ul>
+            <li><strong>Signal vs. Noise:</strong> Intuition speaks as a subtle whisper; disabling notifications and news lets you hear non-local guidance.</li>
+            <li><strong>Law of the Vacuum:</strong> Emptying mental junk creates sacred space into which genuine soul desires and solutions flow effortlessly.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- LAW 10: MIRACLE FREQUENCY (ANTICIPATORY GRATITUDE)        -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="law-10">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Law 10 · Heart Coherence &amp; Collapse of Time</span>
+          <h2 class="section-title">The Miracle <em>Frequency</em></h2>
+          <p class="law-lede">Feeling visceral gratitude <em>before</em> the 3D evidence arrives broadcasts the biological signature that it is already done—uniting brain intention with the heart’s 5,000× stronger magnetic field.</p>
+        </div>
+        <button type="button" class="btn" id="mark-law-10" onclick="toggleLawPracticed(10)">Mark Law 10 Practiced</button>
+      </div>
+
+      <div class="law-workspace reverse">
+        <!-- Left: Morning Quantum Leap Ritual + Heart Coherence Pacer -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Morning Quantum Leap Sequence</span>
+            <span class="badge badge-brass" id="ql-step-badge">Step 1 of 5</span>
+          </div>
+
+          <div class="observation-well">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:var(--space-sm);">
+              <span class="coord-label" id="ql-step-title">1. Enter Silence (Theta Stillness)</span>
+              <span class="mono-value" id="ql-heart-timer" style="color:var(--positive);">5s In · 5s Out</span>
+            </div>
+            <p id="ql-step-desc" style="margin:0 0 var(--space-md) 0; color:var(--on-surface-variant); font-size:0.95rem;">
+              Close your eyes and slow your breath to 5 seconds in, 5 seconds out through the heart center to establish standing-wave coherence.
+            </p>
+            <div style="width:100%; height:10px; background:var(--surface-container); border-radius:var(--rounded-full); overflow:hidden; margin-bottom:var(--space-md);">
+              <div id="heart-pacer-bar" style="width:50%; height:100%; background:var(--positive); transition:width 1s linear;"></div>
+            </div>
+            <div style="display:flex; flex-wrap:wrap; gap:var(--space-sm);">
+              <button type="button" class="btn btn-mint" id="btn-heart-pacer" onclick="toggleHeartCoherence()">
+                <i data-lucide="heart-pulse" aria-hidden="true" width="16" height="16"></i>
+                Start Heart Pacer
+              </button>
+              <button type="button" class="btn" onclick="stepQuantumLeap(-1)">Prev</button>
+              <button type="button" class="btn btn-primary" onclick="stepQuantumLeap(1)">Next Step</button>
+            </div>
+          </div>
+
+          <!-- Confirmation Rewriter -->
+          <div style="margin-top:var(--space-md); display:flex; flex-direction:column; gap:var(--space-sm);">
+            <div class="field-group">
+              <label class="field-label" for="ql-intention-input">Desire / Petition or Current Setback</label>
+              <input type="text" class="input" id="ql-intention-input" placeholder="e.g., I hope I get this leadership role, or This delay frustrated me" oninput="previewConfirmationRewrite(this.value)">
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="ql-confirm-input">Anticipatory Confirmation (“Thank you for…”)</label>
+              <input type="text" class="input" id="ql-confirm-input" placeholder="e.g., Thank you for my ideal leadership role already flowing with ease">
+            </div>
+            <div style="display:flex; flex-wrap:wrap; gap:var(--space-sm); align-items:center;">
+              <button type="button" class="btn btn-primary" onclick="addQuantumSeed()">Seal in Sabbath (“It Is Done”)</button>
+              <button type="button" class="btn btn-sm" onclick="applyAdversityReframe()">Reframe as Adversity Gift</button>
+            </div>
+            <span class="inline-msg" id="ql-msg"></span>
+          </div>
+        </div>
+
+        <!-- Right: Quantum Collapse & Sabbath Seed Journal -->
+        <div class="panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
+            <span class="mono-label">Sabbath Seeds &amp; 3D Collapses</span>
+            <span class="badge badge-mint" id="ql-collapsed-count">0 Collapsed</span>
+          </div>
+          <div class="entry-list" id="ql-list"></div>
+        </div>
+      </div>
+
+      <details class="protocol-drawer">
+        <summary>Law 10 Protocol · The Sabbath State &amp; Appreciating What Is</summary>
+        <div class="protocol-body">
+          <ul>
+            <li><strong>What You Appreciate, Appreciates:</strong> Thanking small gains multiplies them; despising what you have depreciates reality.</li>
+            <li><strong>The Sabbath (Neville Goddard):</strong> Rest mentally in unshakable certainty—stop digging up the planted seed every five minutes to check if it grew.</li>
+            <li><strong>Gratitude in Adversity:</strong> Thanking setbacks in real time strips low-vibration pain and converts lead into wisdom.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- MORNING & EVENING DAILY CALIBRATION CHECKLIST             -->
+    <!-- ========================================================= -->
+    <section class="law-section" id="daily-checklist">
+      <div class="law-header">
+        <div class="law-heading-wrap">
+          <span class="coord-label">Daily Tuning Fork Rhythm</span>
+          <h2 class="section-title">Morning &amp; Evening <em>Calibration</em></h2>
+          <p class="law-lede">Be a tuning fork, not a mirror. Hold your coherent note across the day so density reorganizes around your presence.</p>
+        </div>
+      </div>
+
+      <div class="checklist-grid">
+        <div class="panel">
+          <span class="coord-label">Morning Activation</span>
+          <h3 class="section-title" style="font-size:1.25rem; margin:var(--space-xs) 0 var(--space-md) 0;">Tune Before Leaving Bed</h3>
+          <label class="check-row"><input type="checkbox" id="chk-am-truth" onchange="toggleChecklist('morning', 'truth', this.checked)"><span>1. Honest emotional check-in (Radical Truth)</span></label>
+          <label class="check-row"><input type="checkbox" id="chk-am-decree" onchange="toggleChecklist('morning', 'decree', this.checked)"><span>2. 2-minute spoken Morning Decree aloud</span></label>
+          <label class="check-row"><input type="checkbox" id="chk-am-water" onchange="toggleChecklist('morning', 'water', this.checked)"><span>3. Vortex &amp; charge first glass of water</span></label>
+          <label class="check-row"><input type="checkbox" id="chk-am-orbit" onchange="toggleChecklist('morning', 'orbit', this.checked)"><span>4. Circulate Jing via Microcosmic Orbit</span></label>
+          <label class="check-row"><input type="checkbox" id="chk-am-quantum" onchange="toggleChecklist('morning', 'quantum', this.checked)"><span>5. Morning Quantum Leap &amp; Sabbath seal</span></label>
+        </div>
+
+        <div class="panel">
+          <span class="coord-label">Evening Integration</span>
+          <h3 class="section-title" style="font-size:1.25rem; margin:var(--space-xs) 0 var(--space-md) 0;">Clear &amp; Return to Stillness</h3>
+          <label class="check-row"><input type="checkbox" id="chk-pm-audit" onchange="toggleChecklist('evening', 'audit', this.checked)"><span>1. Cut screen feeds 60 min before sleep</span></label>
+          <label class="check-row"><input type="checkbox" id="chk-pm-circ" onchange="toggleChecklist('evening', 'circulation', this.checked)"><span>2. Bless money circulated &amp; acts of service</span></label>
+          <label class="check-row"><input type="checkbox" id="chk-pm-shadow" onchange="toggleChecklist('evening', 'shadow', this.checked)"><span>3. Dissolve daily triggers via Ho’oponopono</span></label>
+          <label class="check-row"><input type="checkbox" id="chk-pm-hour" onchange="toggleChecklist('evening', 'sacredHour', this.checked)"><span>4. Clear room noise &amp; detach from egregors</span></label>
+          <label class="check-row"><input type="checkbox" id="chk-pm-grat" onchange="toggleChecklist('evening', 'gratitude', this.checked)"><span>5. Fall asleep in anticipatory gratitude</span></label>
+        </div>
+      </div>
+
+      <footer style="border-top:var(--hairline); padding-top:var(--space-lg); color:var(--on-surface-variant); font-size:0.875rem; display:flex; flex-wrap:wrap; justify-content:space-between; gap:var(--space-md);">
+        <span>Grounded in the 10 Laws of Vibration &amp; Spiritual Physics (Hawkins Map, Cymatics, Entrainment, Water Memory, Egregors, Sexual Transmutation, Circulation, Shadow Integration, Dopamine Silence, and Anticipatory Gratitude).</span>
+        <span class="mono-label">All data saved automatically to workspace state</span>
+      </footer>
+    </section>
+
+  </div>
+
+  <api-shim></api-shim>
+  <script>
+    /* =====================================================================
+       DATA DEFINITIONS (Backtick literals throughout for apostrophe safety)
+       ===================================================================== */
+    const LAWS_META = [
+      { id: 1, num: `01`, name: `Scale of Consciousness` },
+      { id: 2, num: `02`, name: `Cymatics of the Word` },
+      { id: 3, num: `03`, name: `Principle of Entrainment` },
+      { id: 4, num: `04`, name: `Memory of Water` },
+      { id: 5, num: `05`, name: `Law of Egregors` },
+      { id: 6, num: `06`, name: `Sexual Transmutation` },
+      { id: 7, num: `07`, name: `Law of Circulation` },
+      { id: 8, num: `08`, name: `Shadow Integration` },
+      { id: 9, num: `09`, name: `Dopamine & Silence` },
+      { id: 10, num: `10`, name: `Miracle Frequency` }
+    ];
+
+    const HAWKINS_LEVELS = [
+      { level: 20, name: `Shame`, realm: `Force`, glasses: `Dark Veil · Seeing oneself as unworthy or invisible; slow self-destruction.`, counterweight: `Base survival floor; seek radical honesty and gentleness.` },
+      { level: 30, name: `Guilt`, realm: `Force`, glasses: `Punishment Lens · Expecting accidents or loss as deserved penance.`, counterweight: `Release self-condemnation; forgiveness elevates immediately.` },
+      { level: 50, name: `Apathy`, realm: `Force`, glasses: `Grey Fog · Hopelessness (“I can't”); passive resignation.`, counterweight: `Tiny action steps break inertia toward Courage.` },
+      { level: 75, name: `Grief`, realm: `Force`, glasses: `Past Lens · Seeing the world as loss and mourning what is gone.`, counterweight: `Acknowledge grief gently; gratitude opens the forward door.` },
+      { level: 100, name: `Fear`, realm: `Force`, glasses: `Black Glasses · Stranger seen as threat; aura contracts in defense.`, counterweight: `1 person at Love (500) counteracts 750,000 people at Fear (100).` },
+      { level: 125, name: `Desire`, realm: `Force`, glasses: `Red Glasses · Stranger seen as extraction (“What can I get?”); scarcity loop.`, counterweight: `Shift from “I need” to “I choose” and service.` },
+      { level: 150, name: `Anger`, realm: `Force`, glasses: `Friction Lens · Expecting conflict at every corner; resentment anchor.`, counterweight: `Transmute into healthy boundaries and forgiveness.` },
+      { level: 175, name: `Pride`, realm: `Force`, glasses: `Fragile Mirror · Self-worth tied to external car, title, or superiority.`, counterweight: `Drop defensiveness to cross the 200 threshold.` },
+      { level: 200, name: `Courage`, realm: `Power`, glasses: `Clear Horizon · Radical responsibility (“I can handle this”).`, counterweight: `Critical turning point: you give back as much energy as you take.` },
+      { level: 250, name: `Neutrality`, realm: `Power`, glasses: `Detached Lens · Flexible, non-controlling (“Fine if yes, fine if no”).`, counterweight: `Drama drops away; people feel safe around you.` },
+      { level: 310, name: `Willingness`, realm: `Power`, glasses: `Open Doors · Proactive optimism (“There is a problem? I'll fix it”).`, counterweight: `Rapid magnetic momentum and competence.` },
+      { level: 350, name: `Acceptance`, realm: `Power`, glasses: `Creator Lens · Nothing happens to you; everything happens for you.`, counterweight: `Higher metaphysical laws activate without resistance.` },
+      { level: 400, name: `Reason`, realm: `Power`, glasses: `Analytical Lens · Science, logic, and clarity—beware intellect trap.`, counterweight: `Sacrifice the need to be right to enter the Heart (500).` },
+      { level: 500, name: `Love`, realm: `Power`, glasses: `Transparent Glasses · “What a wonderful human; how can I serve?”`, counterweight: `1 individual at 500 counteracts 750,000 people below 200.` },
+      { level: 540, name: `Joy`, realm: `Power`, glasses: `Luminous Presence · Effortless synchronicity and compassion.`, counterweight: `Healing radiates outward without personal effort.` },
+      { level: 600, name: `Peace`, realm: `Power`, glasses: `Unity · Instantaneous alignment; zero internal resistance.`, counterweight: `1 individual at 600 counteracts millions in darkness.` }
+    ];
+
+    const DECREE_LINES = [
+      `“I am the power that creates my life. Today I activate the frequency of miracles.”`,
+      `“My cells listen to my voice and align with perfect health and sacred geometry.”`,
+      `“I accept and receive all the abundance that belongs to me by divine right.”`,
+      `“I am a coherent tuning fork of peace, clarity, and unshakable gratitude.”`
+    ];
+
+    const QUANTUM_STEPS = [
+      { title: `1. Enter Silence (Theta Stillness)`, desc: `Close your eyes and slow your breath to 5 seconds in, 5 seconds out through the heart center to establish standing-wave coherence.` },
+      { title: `2. Clear Mental Intention`, desc: `Bring to mind one crisp scene representing your desired reality as already accomplished—clear electrical signal from the brain.` },
+      { title: `3. Heart Coherence`, desc: `Shift awareness into your chest. Remember the heart generates a magnetic field 5,000 times stronger than the brain.` },
+      { title: `4. Master Emotion (Anticipatory Gratitude)`, desc: `Feel the relief, joy, and warm thankfulness right now as if the event already unfolded in physical space.` },
+      { title: `5. Sabbath Release`, desc: `Seal the decree: “It is done. Thank you.” Release anxious fixation on how or when; walk in unshakable faith.` }
+    ];
+
+    const SHADOW_ALCHEMY_MAP = {
+      anger: `Gold Gift: Healthy Boundaries, Courage & Passion for Justice (like Gandhi’s disciplined fire).`,
+      fear: `Gold Gift: Sharp Alertness, Prudence & Respect for genuine intuition.`,
+      envy: `Gold Gift: Inspiration & Map of Desires—it points directly to what your soul wants to build.`,
+      arrogance: `Gold Gift: Unclaimed Confidence & Leadership waiting inside your Golden Shadow.`,
+      lust: `Gold Gift: Raw Creative Vitality (Jing) ready to fuel art, enterprise, and deep connection.`
+    };
+
+    /* =====================================================================
+       STATE INITIALIZATION & PERSISTENCE
+       ===================================================================== */
+    const DEFAULT_STATE = {
+      dateKey: new Date().toISOString().slice(0, 10),
+      practicedLaws: [],
+      morningChecks: { truth: false, decree: false, water: false, orbit: false, quantum: false },
+      eveningChecks: { audit: false, circulation: false, shadow: false, sacredHour: false, gratitude: false },
+      law1: { level: 200, finances: 200, relationships: 200, health: 200, silence: 200 },
+      law2: { activeDecreeIdx: 0, customIam: `I am a coherent channel of abundance and peace.` },
+      law3: { people: [] },
+      law4: { intention: `Love & Gratitude (540)`, glassesCharged: 0, mealsBlessed: 0, fastingHours: 14 },
+      law5: { checkedSymptoms: [] },
+      law6: { cyclesCompleted: 0, streakDays: 0, lastFocusGoal: `Deep creative work` },
+      law7: { entries: [] },
+      law8: { entries: [] },
+      law9: { modeMinutes: 60, sacredMorning: false, sacredEvening: false, monkRules: [], sessionsDone: 0 },
+      law10: { entries: [] }
+    };
+
+    let appState = JSON.parse(JSON.stringify(DEFAULT_STATE));
+
+    async function persistState() {
+      try {
+        if (window.notebookAppApi && typeof window.notebookAppApi.setAppState === `function`) {
+          await window.notebookAppApi.setAppState(appState);
+        }
+      } catch (e) {
+        // Silent resilience outside sandbox
+      }
+    }
+
+    function mergeState(saved) {
+      if (!saved || typeof saved !== `object`) return;
+      appState = Object.assign({}, JSON.parse(JSON.stringify(DEFAULT_STATE)), saved);
+      appState.morningChecks = Object.assign({}, DEFAULT_STATE.morningChecks, saved.morningChecks || {});
+      appState.eveningChecks = Object.assign({}, DEFAULT_STATE.eveningChecks, saved.eveningChecks || {});
+      appState.law1 = Object.assign({}, DEFAULT_STATE.law1, saved.law1 || {});
+      appState.law2 = Object.assign({}, DEFAULT_STATE.law2, saved.law2 || {});
+      appState.law3 = Object.assign({}, DEFAULT_STATE.law3, saved.law3 || {});
+      appState.law4 = Object.assign({}, DEFAULT_STATE.law4, saved.law4 || {});
+      appState.law5 = Object.assign({}, DEFAULT_STATE.law5, saved.law5 || {});
+      appState.law6 = Object.assign({}, DEFAULT_STATE.law6, saved.law6 || {});
+      appState.law7 = Object.assign({}, DEFAULT_STATE.law7, saved.law7 || {});
+      appState.law8 = Object.assign({}, DEFAULT_STATE.law8, saved.law8 || {});
+      appState.law9 = Object.assign({}, DEFAULT_STATE.law9, saved.law9 || {});
+      appState.law10 = Object.assign({}, DEFAULT_STATE.law10, saved.law10 || {});
+    }
+
+    /* =====================================================================
+       COLOR TOKEN HELPER FOR CANVAS DRAWING
+       ===================================================================== */
+    function getToken(name) {
+      return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || `#dfaa5b`;
+    }
+
+    /* =====================================================================
+       WEB AUDIO SYNTHESIZER (Entrainment, Decree Drone, Breath & Chimes)
+       ===================================================================== */
+    let audioCtx = null;
+    let activeOscs = [];
+    let masterGain = null;
+    let currentAudioLabel = `Silent`;
+    let audioVolume = 0.18;
+
+    function ensureAudioCtx() {
+      if (!audioCtx) {
+        const AudioClass = window.AudioContext || window.webkitAudioContext;
+        if (!AudioClass) return null;
+        audioCtx = new AudioClass();
+      }
+      if (audioCtx.state === `suspended`) {
+        audioCtx.resume();
+      }
+      if (!masterGain) {
+        masterGain = audioCtx.createGain();
+        masterGain.gain.value = audioVolume;
+        masterGain.connect(audioCtx.destination);
+      }
+      return audioCtx;
+    }
+
+    function stopAllAudio() {
+      activeOscs.forEach(function (node) {
+        try { node.stop(); } catch (e) {}
+        try { node.disconnect(); } catch (e) {}
+      });
+      activeOscs = [];
+      currentAudioLabel = `Silent`;
+      const telAudio = document.getElementById(`tel-audio`);
+      const telSub = document.getElementById(`tel-audio-sub`);
+      const muteBtn = document.getElementById(`btn-global-mute`);
+      const l3Badge = document.getElementById(`l3-active-freq-badge`);
+      if (telAudio) telAudio.textContent = `Silent`;
+      if (telSub) telSub.textContent = `No oscillator active`;
+      if (muteBtn) muteBtn.style.display = `none`;
+      if (l3Badge) l3Badge.textContent = `Standby`;
+      [`432`, `528`, `783`].forEach(function (id) {
+        const b = document.getElementById(`freq-btn-` + id);
+        if (b) b.classList.remove(`is-active`);
+      });
+      entrainmentSynced = false;
+    }
+
+    function playEntrainmentFreq(hz, label) {
+      const ctx = ensureAudioCtx();
+      if (!ctx) return;
+      stopAllAudio();
+
+      if (hz === 7.83) {
+        // Stereo binaural beat: 136.10 Hz left, 143.93 Hz right -> 7.83 Hz Schumann difference
+        const merger = ctx.createChannelMerger(2);
+        const oscL = ctx.createOscillator();
+        const oscR = ctx.createOscillator();
+        oscL.type = `sine`;
+        oscR.type = `sine`;
+        oscL.frequency.value = 136.10;
+        oscR.frequency.value = 143.93;
+        oscL.connect(merger, 0, 0);
+        oscR.connect(merger, 0, 1);
+        merger.connect(masterGain);
+        oscL.start();
+        oscR.start();
+        activeOscs.push(oscL, oscR);
+      } else {
+        const osc = ctx.createOscillator();
+        const sub = ctx.createOscillator();
+        const subGain = ctx.createGain();
+        osc.type = `sine`;
+        osc.frequency.value = hz;
+        sub.type = `sine`;
+        sub.frequency.value = hz * 0.5;
+        subGain.gain.value = 0.25;
+        osc.connect(masterGain);
+        sub.connect(subGain);
+        subGain.connect(masterGain);
+        osc.start();
+        sub.start();
+        activeOscs.push(osc, sub);
+      }
+
+      currentAudioLabel = hz + ` Hz`;
+      entrainmentSynced = true;
+      const telAudio = document.getElementById(`tel-audio`);
+      const telSub = document.getElementById(`tel-audio-sub`);
+      const muteBtn = document.getElementById(`btn-global-mute`);
+      const l3Badge = document.getElementById(`l3-active-freq-badge`);
+      if (telAudio) telAudio.textContent = hz + ` Hz`;
+      if (telSub) telSub.textContent = label;
+      if (muteBtn) muteBtn.style.display = `inline-flex`;
+      if (l3Badge) l3Badge.textContent = label;
+
+      const btnId = hz === 7.83 ? `783` : String(hz);
+      const activeBtn = document.getElementById(`freq-btn-` + btnId);
+      if (activeBtn) activeBtn.classList.add(`is-active`);
+    }
+
+    function setAudioVolume(pct) {
+      audioVolume = pct / 100;
+      const valEl = document.getElementById(`audio-volume-val`);
+      if (valEl) valEl.textContent = pct + `%`;
+      if (masterGain && audioCtx) {
+        masterGain.gain.setTargetAtTime(audioVolume, audioCtx.currentTime, 0.05);
+      }
+    }
+
+    function playSoftChime(freq) {
+      const ctx = ensureAudioCtx();
+      if (!ctx) return;
+      const osc = ctx.createOscillator();
+      const g = ctx.createGain();
+      osc.type = `sine`;
+      osc.frequency.value = freq || 528;
+      g.gain.setValueAtTime(0.001, ctx.currentTime);
+      g.gain.exponentialRampToValueAtTime(0.18, ctx.currentTime + 0.04);
+      g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 1.4);
+      osc.connect(g);
+      g.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 1.45);
+    }
+
+    /* =====================================================================
+       TOP TELEMETRY & LAW NAVIGATOR
+       ===================================================================== */
+    function renderLawNavigator() {
+      const grid = document.getElementById(`law-nav-grid`);
+      if (!grid) return;
+      grid.innerHTML = LAWS_META.map(function (law) {
+        const done = appState.practicedLaws.indexOf(law.id) !== -1;
+        return `<button type="button" class="law-nav-btn ${done ? `is-done` : ``}" onclick="jumpToLaw(${law.id})">
+          <div class="law-nav-meta">
+            <span class="law-nav-num">LAW ${law.num}</span>
+            <span class="law-nav-name">${law.name}</span>
+          </div>
+          <span class="law-status-dot" aria-hidden="true"></span>
+        </button>`;
+      }).join(``);
+
+      LAWS_META.forEach(function (law) {
+        const btn = document.getElementById(`mark-law-` + law.id);
+        if (!btn) return;
+        const done = appState.practicedLaws.indexOf(law.id) !== -1;
+        btn.className = done ? `btn btn-mint` : `btn`;
+        btn.textContent = done ? `✓ Law ${law.num} Practiced` : `Mark Law ${law.num} Practiced`;
+      });
+    }
+
+    function jumpToLaw(id) {
+      const el = document.getElementById(`law-` + id);
+      if (el) el.scrollIntoView({ behavior: `smooth`, block: `start` });
+    }
+
+    function toggleLawPracticed(id) {
+      const idx = appState.practicedLaws.indexOf(id);
+      if (idx === -1) {
+        appState.practicedLaws.push(id);
+        playSoftChime(528);
+      } else {
+        appState.practicedLaws.splice(idx, 1);
+      }
+      renderLawNavigator();
+      updateTelemetry();
+      persistState();
+    }
+
+    function updateTelemetry() {
+      const lvlObj = findClosestHawkins(appState.law1.level);
+      const telCal = document.getElementById(`tel-calibration`);
+      const telRealm = document.getElementById(`tel-realm`);
+      if (telCal) telCal.textContent = lvlObj.level + ` · ` + lvlObj.name;
+      if (telRealm) telRealm.textContent = lvlObj.realm + ` Realm · ` + (lvlObj.level >= 200 ? `Creator Flow` : `Survival Friction`);
+
+      const telProg = document.getElementById(`tel-progress`);
+      if (telProg) telProg.textContent = appState.practicedLaws.length + ` / 10 Laws`;
+
+      const amCount = Object.values(appState.morningChecks).filter(Boolean).length;
+      const pmCount = Object.values(appState.eveningChecks).filter(Boolean).length;
+      const telRit = document.getElementById(`tel-ritual-count`);
+      if (telRit) telRit.textContent = (amCount + pmCount) + ` / 10 Ritual Checks Complete`;
+
+      const circStats = computeCirculationStats();
+      const telFlow = document.getElementById(`tel-flow`);
+      if (telFlow) telFlow.textContent = circStats.flowPct + `% Flow · ` + appState.law4.glassesCharged + `/8 Water`;
+
+      const telOrbit = document.getElementById(`tel-orbit`);
+      if (telOrbit) telOrbit.textContent = appState.law6.cyclesCompleted + ` Orbits · ` + appState.law6.streakDays + `d Retention`;
+    }
+
+    function resetDailyProgress(btn) {
+      if (btn.dataset.armed !== `true`) {
+        btn.dataset.armed = `true`;
+        btn.textContent = `Confirm Reset Today?`;
+        setTimeout(function () {
+          if (btn && btn.dataset.armed === `true`) {
+            btn.dataset.armed = `false`;
+            btn.textContent = `Reset Today`;
+          }
+        }, 4000);
+        return;
+      }
+      btn.dataset.armed = `false`;
+      btn.textContent = `Reset Today`;
+      appState.practicedLaws = [];
+      appState.morningChecks = { truth: false, decree: false, water: false, orbit: false, quantum: false };
+      appState.eveningChecks = { audit: false, circulation: false, shadow: false, sacredHour: false, gratitude: false };
+      appState.law4.glassesCharged = 0;
+      appState.law4.mealsBlessed = 0;
+      appState.law6.cyclesCompleted = 0;
+      restoreUI();
+      persistState();
+    }
+
+    /* =====================================================================
+       LAW 1: HAWKINS CONSCIOUSNESS CALIBRATION DIAL
+       ===================================================================== */
+    function findClosestHawkins(val) {
+      let best = HAWKINS_LEVELS[0];
+      let minDiff = 9999;
+      HAWKINS_LEVELS.forEach(function (item) {
+        const d = Math.abs(item.level - val);
+        if (d < minDiff) {
+          minDiff = d;
+          best = item;
+        }
+      });
+      return best;
+    }
+
+    function initHawkinsUI() {
+      const sel = document.getElementById(`l1-level-select`);
+      const nodesG = document.getElementById(`hawkins-nodes`);
+      if (sel) {
+        sel.innerHTML = HAWKINS_LEVELS.map(function (h) {
+          return `<option value="${h.level}">${h.level} — ${h.name} (${h.realm})</option>`;
+        }).join(``);
+      }
+      if (nodesG) {
+        nodesG.innerHTML = HAWKINS_LEVELS.map(function (h) {
+          const angleDeg = -90 + ((h.level - 20) / 580) * 180;
+          const rad = (angleDeg - 90) * Math.PI / 180;
+          const cx = 190 + 150 * Math.cos(rad);
+          const cy = 190 + 150 * Math.sin(rad);
+          const col = h.level < 200 ? `var(--data-4)` : (h.level >= 500 ? `var(--data-1)` : `var(--data-2)`);
+          return `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="4.5" fill="${col}" stroke="var(--background)" stroke-width="1.5" style="cursor:pointer;" onclick="setHawkinsLevel(${h.level})"><title>${h.level} — ${h.name}</title></circle>`;
+        }).join(``);
+      }
+    }
+
+    function setHawkinsLevel(val) {
+      appState.law1.level = val;
+      const obj = findClosestHawkins(val);
+      const sel = document.getElementById(`l1-level-select`);
+      if (sel) sel.value = String(obj.level);
+
+      const angleDeg = -90 + ((obj.level - 20) / 580) * 180;
+      const needle = document.getElementById(`hawkins-needle`);
+      if (needle) needle.setAttribute(`transform`, `rotate(${angleDeg.toFixed(1)} 190 190)`);
+
+      const numEl = document.getElementById(`svg-l1-num`);
+      const nameEl = document.getElementById(`svg-l1-name`);
+      if (numEl) numEl.textContent = String(obj.level);
+      if (nameEl) nameEl.textContent = obj.name.toUpperCase();
+
+      const badge = document.getElementById(`l1-realm-badge`);
+      if (badge) {
+        badge.textContent = obj.realm + ` Realm (` + (obj.level >= 200 ? `200+` : `< 200`) + `)`;
+        badge.className = obj.level >= 500 ? `badge badge-brass` : (obj.level >= 200 ? `badge badge-mint` : `badge badge-coral`);
+      }
+
+      const glassesEl = document.getElementById(`l1-glasses`);
+      const logEl = document.getElementById(`l1-log-power`);
+      const cwEl = document.getElementById(`l1-counterweight`);
+      if (glassesEl) glassesEl.textContent = obj.glasses;
+      if (logEl) logEl.textContent = `10^` + obj.level + ` Energetic Magnitude`;
+      if (cwEl) cwEl.textContent = obj.counterweight;
+
+      updateTelemetry();
+      persistState();
+    }
+
+    function updateDomainDiagnosis(domain, val) {
+      appState.law1[domain] = val;
+      const lbl = document.getElementById(`diag-` + domain + `-val`);
+      if (lbl) lbl.textContent = String(val);
+
+      const avg = Math.round((appState.law1.finances + appState.law1.relationships + appState.law1.health + appState.law1.silence) / 4);
+      const obj = findClosestHawkins(avg);
+      const avgEl = document.getElementById(`diag-avg`);
+      const stepEl = document.getElementById(`diag-ascent-step`);
+      if (avgEl) avgEl.textContent = avg + ` · ` + obj.name;
+      if (stepEl) {
+        if (avg < 200) {
+          stepEl.textContent = `Your average sits in Force (${avg}). Next honest climb: admit this exact feeling without judgment to cross immediately into Courage (200).`;
+        } else if (avg < 350) {
+          stepEl.textContent = `You have crossed into Power (${avg}). Stabilize your worst day above 200 through forgiveness, service, and an elevated input diet.`;
+        } else if (avg < 500) {
+          stepEl.textContent = `Strong Creator alignment (${avg}). To enter Love (500), surrender the intellect's need to be right and lead with unconditional benevolence.`;
+        } else {
+          stepEl.textContent = `High Coherence (${avg}). You act as a planetary counterweight—hold this steady note like a tuning fork in daily density.`;
+        }
+      }
+      persistState();
+    }
+
+    /* =====================================================================
+       LAW 2: CHLADNI CYMATIC PLATE & DECREE PLAYER
+       ===================================================================== */
+    let cymaticPattern = `mandala`;
+    let cymaticParticles = [];
+    let cymaticAnimId = null;
+    let decreeInterval = null;
+    let decreeSeconds = 120;
+
+    function initCymaticParticles() {
+      cymaticParticles = [];
+      for (let i = 0; i < 1600; i++) {
+        cymaticParticles.push({
+          x: Math.random() * 2 - 1,
+          y: Math.random() * 2 - 1,
+          vx: 0,
+          vy: 0
+        });
+      }
+    }
+
+    function chladniValue(x, y, mode) {
+      const pi = Math.PI;
+      if (mode === `chaos`) return 0.55;
+      if (mode === `rings`) return Math.sin(pi * 3.5 * Math.hypot(x, y));
+      if (mode === `hex`) return Math.cos(3 * pi * x) * Math.cos(2 * pi * y) - Math.cos(2 * pi * x) * Math.cos(3 * pi * y);
+      if (mode === `mandala`) return Math.cos(5 * pi * x) * Math.cos(3 * pi * y) - Math.cos(3 * pi * x) * Math.cos(5 * pi * y);
+      return Math.cos(7 * pi * x) * Math.cos(4 * pi * y) + Math.cos(4 * pi * x) * Math.cos(7 * pi * y);
+    }
+
+    function setCymaticPattern(mode, hz) {
+      cymaticPattern = mode;
+      const lbl = document.getElementById(`cymatic-mode-label`);
+      if (lbl) lbl.textContent = hz + ` Hz · ` + (mode === `chaos` ? `Dissonance` : `Sacred Geometry`);
+      document.querySelectorAll(`#law-2 .chip-row .btn`).forEach(function (b) { b.classList.remove(`is-active`); });
+      if (mode === `mandala`) {
+        const mb = document.getElementById(`btn-cym-mandala`);
+        if (mb) mb.classList.add(`is-active`);
+      }
+    }
+
+    function renderCymatics() {
+      const canvas = document.getElementById(`cymatic-canvas`);
+      if (!canvas) return;
+      const ctx = canvas.getContext(`2d`);
+      const w = canvas.clientWidth || 400;
+      const h = 260;
+      if (canvas.width !== w || canvas.height !== h) {
+        canvas.width = w;
+        canvas.height = h;
+      }
+
+      const bg = getToken(`--background`);
+      const brass = getToken(`--primary`);
+      const ivory = getToken(`--on-surface`);
+      const ringCol = getToken(`--outline-variant`);
+
+      ctx.fillStyle = bg;
+      ctx.fillRect(0, 0, w, h);
+
+      const cx = w / 2;
+      const cy = h / 2;
+      const radius = Math.min(w, h) * 0.44;
+
+      ctx.strokeStyle = ringCol;
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+      ctx.stroke();
+
+      for (let i = 0; i < cymaticParticles.length; i++) {
+        const p = cymaticParticles[i];
+        if (cymaticPattern === `chaos`) {
+          p.x += (Math.random() - 0.5) * 0.04;
+          p.y += (Math.random() - 0.5) * 0.04;
+        } else {
+          const v = chladniValue(p.x, p.y, cymaticPattern);
+          const eps = 0.015;
+          const dx = Math.abs(chladniValue(p.x + eps, p.y, cymaticPattern)) - Math.abs(v);
+          const dy = Math.abs(chladniValue(p.x, p.y + eps, cymaticPattern)) - Math.abs(v);
+          const step = Math.abs(v) * 0.06;
+          p.x -= Math.sign(dx) * step + (Math.random() - 0.5) * Math.abs(v) * 0.03;
+          p.y -= Math.sign(dy) * step + (Math.random() - 0.5) * Math.abs(v) * 0.03;
+        }
+        const dist = Math.hypot(p.x, p.y);
+        if (dist > 0.96) {
+          p.x = (p.x / dist) * 0.95;
+          p.y = (p.y / dist) * 0.95;
+        }
+
+        ctx.fillStyle = i % 3 === 0 ? ivory : brass;
+        ctx.fillRect(cx + p.x * radius, cy + p.y * radius, 1.8, 1.8);
+      }
+
+      cymaticAnimId = requestAnimationFrame(renderCymatics);
+    }
+
+    function toggleDecreePlayer() {
+      const btn = document.getElementById(`btn-decree-play`);
+      const timerEl = document.getElementById(`decree-timer`);
+      if (decreeInterval) {
+        clearInterval(decreeInterval);
+        decreeInterval = null;
+        if (btn) btn.textContent = `Start 2-Min Decree`;
+        stopAllAudio();
+        return;
+      }
+
+      decreeSeconds = 120;
+      const audioOn = document.getElementById(`decree-audio-toggle`);
+      if (audioOn && audioOn.checked) {
+        playEntrainmentFreq(528, `528 Hz · Decree Resonance`);
+      }
+      setCymaticPattern(`mandala`, 528);
+      if (btn) btn.textContent = `Pause Decree`;
+
+      decreeInterval = setInterval(function () {
+        decreeSeconds--;
+        const mins = String(Math.floor(decreeSeconds / 60)).padStart(2, `0`);
+        const secs = String(decreeSeconds % 60).padStart(2, `0`);
+        if (timerEl) timerEl.textContent = mins + `:` + secs;
+        if (decreeSeconds % 30 === 0 && decreeSeconds > 0) {
+          nextDecreeLine();
+        }
+        if (decreeSeconds <= 0) {
+          clearInterval(decreeInterval);
+          decreeInterval = null;
+          stopAllAudio();
+          playSoftChime(528);
+          if (btn) btn.textContent = `Decree Complete`;
+          if (appState.practicedLaws.indexOf(2) === -1) toggleLawPracticed(2);
+        }
+      }, 1000);
+    }
+
+    function nextDecreeLine() {
+      appState.law2.activeDecreeIdx = (appState.law2.activeDecreeIdx + 1) % DECREE_LINES.length;
+      const el = document.getElementById(`decree-active-text`);
+      if (el) el.textContent = DECREE_LINES[appState.law2.activeDecreeIdx];
+      persistState();
+    }
+
+    function testSemanticExample(phrase) {
+      const inp = document.getElementById(`semantic-input`);
+      if (inp) inp.value = phrase;
+      analyzeSemanticPhrase(phrase);
+    }
+
+    function analyzeSemanticPhrase(val) {
+      const diag = document.getElementById(`semantic-diagnosis`);
+      const rew = document.getElementById(`semantic-rewrite`);
+      if (!diag || !rew) return;
+      const text = val.trim().toLowerCase();
+      if (!text) {
+        diag.textContent = `Select a low-frequency phrase above or type your own to inspect its cymatic signature.`;
+        rew.textContent = ``;
+        return;
+      }
+      if (text.includes(`try`)) {
+        diag.textContent = `Detected “TRY” — Subconsciously expects effort and failure.`;
+        rew.textContent = `Prescriptive Decree: “I will execute this cleanly, or I choose another path.”`;
+      } else if (text.includes(`hopefully`) || text.includes(`hope`)) {
+        diag.textContent = `Detected “HOPEFULLY” — Vibrates in doubt and lack of authority.`;
+        rew.textContent = `Prescriptive Decree: “I intend this outcome and I am actively in the process.”`;
+      } else if (text.includes(`need`)) {
+        diag.textContent = `Detected “I NEED” — Broadcasts scarcity (Hawkins 125), pushing supply away.`;
+        rew.textContent = `Prescriptive Decree: “I choose and welcome abundant flow into my life now.”`;
+      } else if (text.includes(`hate`)) {
+        diag.textContent = `Detected “HATE” — Destructive 150-level attack pattern inside cellular water.`;
+        rew.textContent = `Prescriptive Decree: “I prefer peaceful ease and redirect my attention higher.”`;
+      } else if (text.includes(`can't`) || text.includes(`cant`) || text.includes(`cannot`)) {
+        diag.textContent = `Detected “I CAN'T” — Decree of impotence that shuts creative neural pathways.`;
+        rew.textContent = `Prescriptive Decree: “How can I solve this with creative power?”`;
+      } else if (text.includes(`i am `) && (text.includes(`tired`) || text.includes(`broke`) || text.includes(`sick`) || text.includes(`exhausted`) || text.includes(`old`) || text.includes(`clumsy`))) {
+        diag.textContent = `WARNING: Attaching lack or fatigue to “I AM” programs cellular identity.`;
+        rew.textContent = `Prescriptive Decree: “I am experiencing temporary transition; my essence is vital, abundant, and whole.”`;
+      } else {
+        diag.textContent = `Coherent Linguistic Signature — Free of common scarcity hooks.`;
+        rew.textContent = `Affirm aloud with chest resonance: “${val.trim()}”`;
+      }
+    }
+
+    function saveCustomIam() {
+      const inp = document.getElementById(`custom-iam-input`);
+      const msg = document.getElementById(`iam-save-msg`);
+      if (!inp) return;
+      appState.law2.customIam = inp.value.trim() || `I am a coherent channel of abundance and peace.`;
+      if (msg) {
+        msg.textContent = `“I AM” decree locked and saved.`;
+        msg.className = `inline-msg is-positive`;
+      }
+      persistState();
+    }
+
+    /* =====================================================================
+       LAW 3: ENTRAINMENT OSCILLOSCOPE & 5-PERSON AUDIT
+       ===================================================================== */
+    let entrainmentSynced = false;
+    let entrainmentPhase = 0;
+
+    function renderEntrainmentWave() {
+      const canvas = document.getElementById(`entrainment-canvas`);
+      if (!canvas) return;
+      const ctx = canvas.getContext(`2d`);
+      const w = canvas.clientWidth || 400;
+      const h = 200;
+      if (canvas.width !== w || canvas.height !== h) {
+        canvas.width = w;
+        canvas.height = h;
+      }
+
+      ctx.fillStyle = getToken(`--background`);
+      ctx.fillRect(0, 0, w, h);
+
+      ctx.strokeStyle = getToken(`--outline-variant`);
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(0, h / 2);
+      ctx.lineTo(w, h / 2);
+      ctx.stroke();
+
+      entrainmentPhase += 0.04;
+
+      // Wave 1: Reference Oscillator (Brass)
+      ctx.strokeStyle = getToken(`--primary`);
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      for (let x = 0; x < w; x++) {
+        const y = h / 2 + Math.sin(x * 0.03 + entrainmentPhase) * 42;
+        if (x === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+
+      // Wave 2: Biological Oscillator (Sky Blue) - locks in phase when audio active
+      ctx.strokeStyle = getToken(`--tertiary`);
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      const offset = entrainmentSynced ? 0 : 1.7;
+      const freq = entrainmentSynced ? 0.03 : 0.047;
+      for (let x = 0; x < w; x++) {
+        const y = h / 2 + Math.sin(x * freq + entrainmentPhase * (entrainmentSynced ? 1 : 1.4) + offset) * 34;
+        if (x === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+
+      requestAnimationFrame(renderEntrainmentWave);
+    }
+
+    function addAuditPerson() {
+      const nameInp = document.getElementById(`audit-name`);
+      const scoreInp = document.getElementById(`audit-score`);
+      const msg = document.getElementById(`audit-msg`);
+      if (!nameInp || !scoreInp) return;
+
+      const name = nameInp.value.trim();
+      const score = Math.max(1, Math.min(10, Number(scoreInp.value) || 5));
+      if (!name) {
+        if (msg) {
+          msg.textContent = `Enter a person, group, or digital feed name.`;
+          msg.className = `inline-msg is-error`;
+        }
+        return;
+      }
+      if (appState.law3.people.length >= 5) {
+        if (msg) {
+          msg.textContent = `Top-5 Circle is full. Remove one node to replace it.`;
+          msg.className = `inline-msg is-error`;
+        }
+        return;
+      }
+
+      appState.law3.people.push({ id: Date.now(), name, score });
+      nameInp.value = ``;
+      if (msg) { msg.textContent = ``; msg.className = `inline-msg`; }
+      renderAuditList();
+      persistState();
+    }
+
+    function removeAuditPerson(id) {
+      appState.law3.people = appState.law3.people.filter(function (p) { return p.id !== id; });
+      renderAuditList();
+      persistState();
+    }
+
+    function loadSampleAudit() {
+      appState.law3.people = [
+        { id: 1, name: `Mastermind Mentor`, score: 9 },
+        { id: 2, name: `Supportive Partner`, score: 8 },
+        { id: 3, name: `Office Breakroom Chatter`, score: 4 },
+        { id: 4, name: `Creative Builder Peer`, score: 8 },
+        { id: 5, name: `Breaking News Feed`, score: 2 }
+      ];
+      renderAuditList();
+      persistState();
+    }
+
+    function renderAuditList() {
+      const list = document.getElementById(`audit-list`);
+      const avgEl = document.getElementById(`audit-avg-score`);
+      const verdict = document.getElementById(`audit-verdict`);
+      if (!list) return;
+
+      if (appState.law3.people.length === 0) {
+        list.innerHTML = `<div class="empty-state"><strong>No proximity nodes logged yet</strong>Add the 5 people or feeds you spend the most hours with to compute your Mirror Neuron average.</div>`;
+        if (avgEl) avgEl.textContent = `— / 10`;
+        if (verdict) { verdict.textContent = `Add up to 5 contacts`; verdict.className = `badge`; }
+        return;
+      }
+
+      let sum = 0;
+      list.innerHTML = appState.law3.people.map(function (p) {
+        sum += p.score;
+        const isVitamin = p.score >= 7;
+        const tag = isVitamin ? `Vitamin · Elevate` : (p.score <= 4 ? `Drainer · Limit/Cut` : `Neutral · Shield`);
+        const cls = isVitamin ? `badge-mint` : (p.score <= 4 ? `badge-coral` : `badge`);
+        return `<div class="entry-item">
+          <div>
+            <strong>${escapeHtml(p.name)}</strong>
+            <div style="margin-top:4px;"><span class="badge ${cls}">${p.score}/10 · ${tag}</span></div>
+          </div>
+          <button type="button" class="btn btn-sm" onclick="removeAuditPerson(${p.id})" aria-label="Remove ${escapeHtml(p.name)}">Remove</button>
+        </div>`;
+      }).join(``);
+
+      const avg = (sum / appState.law3.people.length).toFixed(1);
+      if (avgEl) avgEl.textContent = avg + ` / 10`;
+      if (verdict) {
+        if (Number(avg) >= 7.5) {
+          verdict.textContent = `High-Resonance Mastermind`;
+          verdict.className = `badge badge-mint`;
+        } else if (Number(avg) >= 5.5) {
+          verdict.textContent = `Mixed Field · Use Light Bubble`;
+          verdict.className = `badge badge-brass`;
+        } else {
+          verdict.textContent = `Draining Field · Redesign Proximity`;
+          verdict.className = `badge badge-coral`;
+        }
+      }
+    }
+
+    /* =====================================================================
+       LAW 4: WATER INTENTION CHARGER & BIOPHOTONS
+       ===================================================================== */
+    let waterStage = `idle`; // idle | filter | vortex | imprint
+    let waterAngle = 0;
+
+    function setWaterIntention(val) {
+      appState.law4.intention = val;
+      persistState();
+    }
+
+    function triggerWaterStep(step) {
+      waterStage = step;
+      const msg = document.getElementById(`water-status-msg`);
+      if (step === `filter`) {
+        if (msg) { msg.textContent = `Step 1 Complete: Chlorine & fluoride cleared from water matrix.`; msg.className = `inline-msg`; }
+      } else if (step === `vortex`) {
+        if (msg) { msg.textContent = `Step 2 Active: Spiral vortex motion restoring natural energy.`; msg.className = `inline-msg`; }
+      } else if (step === `imprint`) {
+        appState.law4.glassesCharged = Math.min(12, appState.law4.glassesCharged + 1);
+        playSoftChime(528);
+        if (msg) {
+          msg.textContent = `Imprinted with “${appState.law4.intention}” — Hexagonal EZ lattice structured!`;
+          msg.className = `inline-msg is-positive`;
+        }
+        renderWaterBadges();
+        updateTelemetry();
+        persistState();
+      }
+    }
+
+    function renderWaterBadges() {
+      const badge = document.getElementById(`water-glasses-badge`);
+      if (badge) badge.textContent = appState.law4.glassesCharged + ` / 8 Glasses Charged`;
+      const meals = document.getElementById(`meals-blessed-count`);
+      if (meals) meals.textContent = String(appState.law4.mealsBlessed);
+      const fastDisp = document.getElementById(`fasting-hours-display`);
+      if (fastDisp) fastDisp.textContent = appState.law4.fastingHours + `h`;
+      const fastSlider = document.getElementById(`fasting-slider`);
+      if (fastSlider) fastSlider.value = String(appState.law4.fastingHours);
+    }
+
+    function logBlessedMeal() {
+      appState.law4.mealsBlessed++;
+      playSoftChime(432);
+      renderWaterBadges();
+      persistState();
+    }
+
+    function setFastingHours(h) {
+      appState.law4.fastingHours = h;
+      renderWaterBadges();
+      persistState();
+    }
+
+    function renderWaterCanvas() {
+      const canvas = document.getElementById(`water-canvas`);
+      if (!canvas) return;
+      const ctx = canvas.getContext(`2d`);
+      const w = canvas.clientWidth || 400;
+      const h = 260;
+      if (canvas.width !== w || canvas.height !== h) {
+        canvas.width = w;
+        canvas.height = h;
+      }
+
+      ctx.fillStyle = getToken(`--background`);
+      ctx.fillRect(0, 0, w, h);
+
+      const cx = w / 2;
+      const cy = h / 2;
+      waterAngle += waterStage === `vortex` ? 0.06 : 0.012;
+
+      const sky = getToken(`--tertiary`);
+      const brass = getToken(`--primary`);
+      const mint = getToken(`--positive`);
+
+      if (waterStage === `imprint`) {
+        // Draw crisp 6-fold Masaru Emoto / EZ hexagonal crystal geometry
+        ctx.save();
+        ctx.translate(cx, cy);
+        ctx.rotate(waterAngle * 0.25);
+        for (let ring = 1; ring <= 3; ring++) {
+          const r = ring * 30;
+          ctx.strokeStyle = ring === 3 ? brass : sky;
+          ctx.lineWidth = 1.6;
+          ctx.beginPath();
+          for (let i = 0; i < 6; i++) {
+            const a = (i * Math.PI) / 3;
+            const px = Math.cos(a) * r;
+            const py = Math.sin(a) * r;
+            if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+          }
+          ctx.closePath();
+          ctx.stroke();
+        }
+        ctx.strokeStyle = mint;
+        for (let i = 0; i < 6; i++) {
+          const a = (i * Math.PI) / 3;
+          ctx.beginPath();
+          ctx.moveTo(0, 0);
+          ctx.lineTo(Math.cos(a) * 102, Math.sin(a) * 102);
+          ctx.stroke();
+        }
+        ctx.restore();
+      } else {
+        // Draw spiral vortex or gentle ripples
+        const arms = waterStage === `vortex` ? 6 : 3;
+        for (let a = 0; a < arms; a++) {
+          ctx.strokeStyle = a % 2 === 0 ? sky : brass;
+          ctx.lineWidth = waterStage === `vortex` ? 2 : 1.2;
+          ctx.beginPath();
+          for (let r = 8; r < 105; r += 3) {
+            const theta = waterAngle + (a * Math.PI * 2) / arms + r * (waterStage === `vortex` ? 0.06 : 0.02);
+            const x = cx + Math.cos(theta) * r;
+            const y = cy + Math.sin(theta) * r;
+            if (r === 8) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+          }
+          ctx.stroke();
+        }
+      }
+      requestAnimationFrame(renderWaterCanvas);
+    }
+
+    /* =====================================================================
+       LAW 5: EGREGOR PENDULUM SIMULATOR
+       ===================================================================== */
+    let pendulumAngle = 0.25;
+    let pendulumVel = 0;
+    let pendulumDamping = 0.992;
+
+    function triggerPendulumResponse(mode) {
+      const badge = document.getElementById(`pendulum-state-badge`);
+      const fb = document.getElementById(`pendulum-feedback`);
+      if (mode === `outrage` || mode === `fear`) {
+        pendulumVel += (pendulumAngle >= 0 ? 0.09 : -0.09);
+        pendulumDamping = 0.997;
+        if (badge) { badge.textContent = `Hooked · Draining Aura`; badge.className = `badge badge-coral`; }
+        if (fb) {
+          fb.textContent = mode === `outrage`
+            ? `You pushed the pendulum with anger (150)! It swings back harder and drains your battery.`
+            : `Fear (100) locks your aura onto the egregor. Stop reacting to cut the cord.`;
+          fb.className = `inline-msg is-error`;
+        }
+      } else {
+        pendulumDamping = 0.93;
+        if (badge) { badge.textContent = `Failure of Pendulum`; badge.className = `badge badge-mint`; }
+        if (fb) {
+          fb.textContent = mode === `humor`
+            ? `Laughter shatters dense fear structures instantly—sovereignty restored!`
+            : mode === `aikido`
+              ? `Energetic Aikido: you absorbed the inertia and redirected it cleanly toward a solution.`
+              : `Benevolent indifference: the pendulum swings into empty air and collapses.`;
+          fb.className = `inline-msg is-positive`;
+        }
+      }
+    }
+
+    function renderPendulum() {
+      const canvas = document.getElementById(`pendulum-canvas`);
+      if (!canvas) return;
+      const ctx = canvas.getContext(`2d`);
+      const w = canvas.clientWidth || 400;
+      const h = 260;
+      if (canvas.width !== w || canvas.height !== h) {
+        canvas.width = w;
+        canvas.height = h;
+      }
+
+      ctx.fillStyle = getToken(`--background`);
+      ctx.fillRect(0, 0, w, h);
+
+      const accel = -0.015 * Math.sin(pendulumAngle);
+      pendulumVel = (pendulumVel + accel) * pendulumDamping;
+      pendulumAngle += pendulumVel;
+      if (Math.abs(pendulumAngle) > 1.25) pendulumAngle = Math.sign(pendulumAngle) * 1.25;
+
+      const pivotX = w / 2;
+      const pivotY = 24;
+      const len = 175;
+      const bobX = pivotX + Math.sin(pendulumAngle) * len;
+      const bobY = pivotY + Math.cos(pendulumAngle) * len;
+
+      // User Sovereign Field Circle at center bottom
+      ctx.strokeStyle = getToken(`--tertiary`);
+      ctx.lineWidth = 1.5;
+      ctx.setLineDash([4, 4]);
+      ctx.beginPath();
+      ctx.arc(pivotX, 200, 44, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      // Pendulum arm & bob
+      const isHot = Math.abs(pendulumAngle) > 0.35 || Math.abs(pendulumVel) > 0.025;
+      ctx.strokeStyle = getToken(`--outline`);
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(pivotX, pivotY);
+      ctx.lineTo(bobX, bobY);
+      ctx.stroke();
+
+      ctx.fillStyle = isHot ? getToken(`--data-4`) : getToken(`--primary`);
+      ctx.beginPath();
+      ctx.arc(bobX, bobY, 18, 0, Math.PI * 2);
+      ctx.fill();
+
+      requestAnimationFrame(renderPendulum);
+    }
+
+    function toggleEgregorSymptom(sym, checked) {
+      const arr = appState.law5.checkedSymptoms;
+      const idx = arr.indexOf(sym);
+      if (checked && idx === -1) arr.push(sym);
+      if (!checked && idx !== -1) arr.splice(idx, 1);
+
+      const tactic = document.getElementById(`egregor-tactic-text`);
+      if (tactic) {
+        if (arr.length === 0) {
+          tactic.innerHTML = `Use <strong>Renting Yourself Out</strong> at work: perform your role impeccably as an actor, then take off the costume when the curtain falls.`;
+        } else if (arr.length <= 2) {
+          tactic.innerHTML = `<strong>${arr.length} hook(s) detected:</strong> Step back into Benevolent Indifference—observe the provocation like rain falling outside a window.`;
+        } else {
+          tactic.innerHTML = `<strong>High Egregor Load (${arr.length}/4):</strong> Turn off news/social feeds immediately, break the frequency with genuine laughter, and ground outside.`;
+        }
+      }
+      persistState();
+    }
+
+    /* =====================================================================
+       LAW 6: MICROCOSMIC ORBIT BREATHWORK VISUALIZER
+       ===================================================================== */
+    let orbitRunning = false;
+    let orbitStartTs = 0;
+    let orbitAnimId = null;
+    let lastOrbitCycleIndex = -1;
+
+    function toggleOrbitBreathwork() {
+      const btn = document.getElementById(`btn-orbit-toggle`);
+      if (orbitRunning) {
+        orbitRunning = false;
+        cancelAnimationFrame(orbitAnimId);
+        if (btn) btn.textContent = `Start Orbit`;
+        const badge = document.getElementById(`orbit-phase-badge`);
+        if (badge) badge.textContent = `Paused`;
+        return;
+      }
+      orbitRunning = true;
+      orbitStartTs = performance.now();
+      lastOrbitCycleIndex = 0;
+      if (btn) btn.textContent = `Pause Orbit`;
+      playSoftChime(432);
+      stepOrbitAnimation();
+    }
+
+    function stepOrbitAnimation() {
+      if (!orbitRunning) return;
+      const elapsedSec = (performance.now() - orbitStartTs) / 1000;
+      const cycleLen = 12; // 4s Inhale up spine + 2s Crown Hold + 6s Exhale down front
+      const currentCycle = Math.floor(elapsedSec / cycleLen);
+      const t = elapsedSec % cycleLen;
+
+      if (currentCycle > lastOrbitCycleIndex) {
+        lastOrbitCycleIndex = currentCycle;
+        appState.law6.cyclesCompleted++;
+        const totalEl = document.getElementById(`orbit-cycles-total`);
+        if (totalEl) totalEl.textContent = String(appState.law6.cyclesCompleted);
+        playSoftChime(528);
+        updateTelemetry();
+        persistState();
+      }
+
+      const orb = document.getElementById(`orbit-orb`);
+      const halo = document.getElementById(`orbit-halo`);
+      const badge = document.getElementById(`orbit-phase-badge`);
+      const inst = document.getElementById(`orbit-instruction`);
+      const cd = document.getElementById(`orbit-countdown`);
+
+      let pos = { x: 160, y: 236 };
+      function evalCubicBezier(p0, p1, p2, p3, u) {
+        const m = 1 - u;
+        return {
+          x: m * m * m * p0.x + 3 * m * m * u * p1.x + 3 * m * u * u * p2.x + u * u * u * p3.x,
+          y: m * m * m * p0.y + 3 * m * m * u * p1.y + 3 * m * u * u * p2.y + u * u * u * p3.y
+        };
+      }
+      if (t < 4) {
+        // Inhale up spine path
+        pos = evalCubicBezier({ x: 160, y: 236 }, { x: 85, y: 210 }, { x: 85, y: 60 }, { x: 160, y: 34 }, t / 4);
+        if (badge) { badge.textContent = `Inhale · Kegel Lift`; badge.className = `badge`; }
+        if (inst) inst.textContent = `Draw Golden Jing Up Spine`;
+        if (cd) cd.textContent = `Inhale: ` + Math.ceil(4 - t) + `s remaining`;
+        if (halo) halo.setAttribute(`r`, String(22 + (t / 4) * 20));
+      } else if (t < 6) {
+        // Crown pause
+        pos = { x: 160, y: 34 };
+        if (badge) { badge.textContent = `Crown · Pineal Charge`; badge.className = `badge badge-brass`; }
+        if (inst) inst.textContent = `Hold Gently at Crown`;
+        if (cd) cd.textContent = `Hold: ` + Math.ceil(6 - t) + `s remaining`;
+        if (halo) halo.setAttribute(`r`, `42`);
+      } else {
+        // Exhale down front path
+        pos = evalCubicBezier({ x: 160, y: 34 }, { x: 235, y: 60 }, { x: 235, y: 210 }, { x: 160, y: 236 }, (t - 6) / 6);
+        if (badge) { badge.textContent = `Exhale · Tongue on Palate`; badge.className = `badge badge-mint`; }
+        if (inst) inst.textContent = `Descend Energy to Origin`;
+        if (cd) cd.textContent = `Exhale: ` + Math.ceil(12 - t) + `s remaining`;
+        if (halo) halo.setAttribute(`r`, String(42 - ((t - 6) / 6) * 20));
+      }
+
+      if (orb) {
+        orb.setAttribute(`cx`, pos.x.toFixed(1));
+        orb.setAttribute(`cy`, pos.y.toFixed(1));
+      }
+
+      orbitAnimId = requestAnimationFrame(stepOrbitAnimation);
+    }
+
+    function resetOrbitCounter() {
+      orbitRunning = false;
+      cancelAnimationFrame(orbitAnimId);
+      const btn = document.getElementById(`btn-orbit-toggle`);
+      if (btn) btn.textContent = `Start Orbit`;
+      const orb = document.getElementById(`orbit-orb`);
+      if (orb) { orb.setAttribute(`cx`, `160`); orb.setAttribute(`cy`, `236`); }
+      const inst = document.getElementById(`orbit-instruction`);
+      if (inst) inst.textContent = `Press Start to Circulate Jing`;
+    }
+
+    function adjustRetentionStreak(delta) {
+      appState.law6.streakDays = delta < 0 ? 0 : appState.law6.streakDays + delta;
+      const el = document.getElementById(`retention-streak-display`);
+      if (el) el.textContent = appState.law6.streakDays + ` Days`;
+      updateTelemetry();
+      persistState();
+    }
+
+    function saveTurbineGoal() {
+      const inp = document.getElementById(`orbit-turbine-goal`);
+      const msg = document.getElementById(`turbine-msg`);
+      if (!inp) return;
+      appState.law6.lastFocusGoal = inp.value.trim() || `Deep creative work`;
+      if (msg) {
+        msg.textContent = `Vital energy committed to: “${appState.law6.lastFocusGoal}”`;
+        msg.className = `inline-msg is-positive`;
+      }
+      persistState();
+    }
+
+    /* =====================================================================
+       LAW 7: CURRENCY CIRCULATION TRACKER
+       ===================================================================== */
+    function computeCirculationStats() {
+      let inhale = 0;
+      let exhale = 0;
+      let tithe = 0;
+      appState.law7.entries.forEach(function (e) {
+        if (e.type === `inhale`) inhale += e.amount;
+        else {
+          exhale += e.amount;
+          if (e.type === `tithe`) tithe += e.amount;
+        }
+      });
+      const flowPct = inhale > 0 ? Math.min(100, Math.round((exhale / inhale) * 100)) : (exhale > 0 ? 100 : 0);
+      return { inhale, exhale, tithe, flowPct };
+    }
+
+    function addCirculationEntry() {
+      const typeEl = document.getElementById(`circ-type`);
+      const amtEl = document.getElementById(`circ-amount`);
+      const noteEl = document.getElementById(`circ-note`);
+      const msg = document.getElementById(`circ-msg`);
+      if (!typeEl || !amtEl || !noteEl) return;
+
+      const amount = Math.max(0, Number(amtEl.value) || 0);
+      const note = noteEl.value.trim() || (typeEl.value === `inhale` ? `Received with gratitude` : `Blessed and circulated`);
+      if (amount <= 0 && typeEl.value !== `generosity`) {
+        if (msg) { msg.textContent = `Enter a positive currency amount.`; msg.className = `inline-msg is-error`; }
+        return;
+      }
+
+      appState.law7.entries.unshift({
+        id: Date.now(),
+        type: typeEl.value,
+        amount,
+        note,
+        time: new Date().toLocaleTimeString([], { hour: `2-digit`, minute: `2-digit` })
+      });
+      noteEl.value = ``;
+      if (msg) { msg.textContent = `Flow logged in universal ledger.`; msg.className = `inline-msg is-positive`; }
+      renderCirculation();
+      updateTelemetry();
+      persistState();
+    }
+
+    function removeCirculationEntry(id) {
+      appState.law7.entries = appState.law7.entries.filter(function (e) { return e.id !== id; });
+      renderCirculation();
+      updateTelemetry();
+      persistState();
+    }
+
+    function loadSampleCirculation() {
+      appState.law7.entries = [
+        { id: 1, type: `inhale`, amount: 450, note: `Client consulting fee received with joy`, time: `09:15` },
+        { id: 2, type: `tithe`, amount: 45, note: `10% secular tithe to local food sanctuary`, time: `09:30` },
+        { id: 3, type: `exhale`, amount: 120, note: `Happy Money electric bill—thank you for warmth & light`, time: `10:05` },
+        { id: 4, type: `generosity`, amount: 12, note: `24h Generosity: generous barista tip & coffee treat`, time: `11:20` }
+      ];
+      renderCirculation();
+      updateTelemetry();
+      persistState();
+    }
+
+    function renderCirculation() {
+      const stats = computeCirculationStats();
+      const inEl = document.getElementById(`circ-inhale-total`);
+      const exEl = document.getElementById(`circ-exhale-total`);
+      const tStatus = document.getElementById(`circ-tithe-status`);
+      const tBar = document.getElementById(`circ-tithe-bar`);
+      const seaBadge = document.getElementById(`circ-sea-badge`);
+      const list = document.getElementById(`circ-list`);
+
+      if (inEl) inEl.textContent = `$` + stats.inhale.toLocaleString();
+      if (exEl) exEl.textContent = `$` + stats.exhale.toLocaleString();
+      const targetTithe = Math.round(stats.inhale * 0.1);
+      if (tStatus) tStatus.textContent = `$` + stats.tithe.toLocaleString() + ` / $` + targetTithe.toLocaleString();
+      if (tBar) {
+        const pct = targetTithe > 0 ? Math.min(100, Math.round((stats.tithe / targetTithe) * 100)) : (stats.tithe > 0 ? 100 : 0);
+        tBar.style.width = pct + `%`;
+      }
+      if (seaBadge) {
+        if (stats.inhale === 0 && stats.exhale === 0) {
+          seaBadge.textContent = `Awaiting Flow`;
+          seaBadge.className = `badge`;
+        } else if (stats.exhale === 0 && stats.inhale > 0) {
+          seaBadge.textContent = `Dead Sea Warning · Exhale Needed`;
+          seaBadge.className = `badge badge-coral`;
+        } else {
+          seaBadge.textContent = `Sea of Galilee · ` + stats.flowPct + `% Flowing`;
+          seaBadge.className = `badge badge-mint`;
+        }
+      }
+
+      if (!list) return;
+      if (appState.law7.entries.length === 0) {
+        list.innerHTML = `<div class="empty-state"><strong>No currency flows recorded today</strong>Log income received, bills blessed with “Arigato Money,” 10% secular tithing, or 24h generosity acts.</div>`;
+        return;
+      }
+      list.innerHTML = appState.law7.entries.map(function (e) {
+        const badgeCls = e.type === `inhale` ? `badge-mint` : (e.type === `tithe` ? `badge-brass` : `badge`);
+        const labelMap = { inhale: `Inhale`, exhale: `Blessed Bill`, tithe: `10% Tithe`, generosity: `Generosity` };
+        return `<div class="entry-item">
+          <div>
+            <div style="display:flex; align-items:center; gap:var(--space-sm); flex-wrap:wrap;">
+              <span class="badge ${badgeCls}">${labelMap[e.type] || e.type}</span>
+              <strong class="mono-value">$${e.amount}</strong>
+              <span class="mono-label">${e.time}</span>
+            </div>
+            <div style="margin-top:4px; color:var(--on-surface-variant); font-size:0.9rem;">${escapeHtml(e.note)}</div>
+          </div>
+          <button type="button" class="btn btn-sm" onclick="removeCirculationEntry(${e.id})">Remove</button>
+        </div>`;
+      }).join(``);
+    }
+
+    /* =====================================================================
+       LAW 8: SHADOW MIRROR JOURNAL & HO'OPONOPONO DISSOLUTION
+       ===================================================================== */
+    function updateShadowAlchemyPreview(emotion) {
+      const el = document.getElementById(`shadow-alchemy-preview`);
+      if (el) el.textContent = SHADOW_ALCHEMY_MAP[emotion] || SHADOW_ALCHEMY_MAP.anger;
+    }
+
+    function addShadowEntry() {
+      const trigEl = document.getElementById(`shadow-trigger`);
+      const emoEl = document.getElementById(`shadow-emotion`);
+      const mirEl = document.getElementById(`shadow-mirror`);
+      const msg = document.getElementById(`shadow-msg`);
+      if (!trigEl || !emoEl || !mirEl) return;
+
+      const trigger = trigEl.value.trim();
+      const mirror = mirEl.value.trim();
+      if (!trigger || !mirror) {
+        if (msg) { msg.textContent = `Describe both the external trigger and the mirror reflection inside you.`; msg.className = `inline-msg is-error`; }
+        return;
+      }
+
+      appState.law8.entries.unshift({
+        id: Date.now(),
+        trigger,
+        emotion: emoEl.value,
+        mirror,
+        alchemy: SHADOW_ALCHEMY_MAP[emoEl.value] || ``,
+        dissolved: false
+      });
+      trigEl.value = ``;
+      mirEl.value = ``;
+      if (msg) { msg.textContent = `Shadow logged. Deploy Ho’oponopono in the chamber to alchemize it.`; msg.className = `inline-msg`; }
+      renderShadowList();
+      persistState();
+    }
+
+    function dissolveShadowEntry(id) {
+      const entry = appState.law8.entries.find(function (e) { return e.id === id; });
+      if (!entry) return;
+      entry.dissolved = !entry.dissolved;
+      if (entry.dissolved) playSoftChime(528);
+      renderShadowList();
+      persistState();
+    }
+
+    function removeShadowEntry(id) {
+      appState.law8.entries = appState.law8.entries.filter(function (e) { return e.id !== id; });
+      renderShadowList();
+      persistState();
+    }
+
+    function renderShadowList() {
+      const list = document.getElementById(`shadow-list`);
+      const countEl = document.getElementById(`shadow-dissolved-count`);
+      const dissolvedCount = appState.law8.entries.filter(function (e) { return e.dissolved; }).length;
+      if (countEl) countEl.textContent = dissolvedCount + ` Integrated`;
+      if (!list) return;
+
+      if (appState.law8.entries.length === 0) {
+        list.innerHTML = `<div class="empty-state"><strong>No shadow projections logged</strong>When someone triggers intense irritation or envy, log the mirror reflection here to transmute lead into gold.</div>`;
+        return;
+      }
+
+      list.innerHTML = appState.law8.entries.map(function (e) {
+        return `<div class="entry-item ${e.dissolved ? `is-dissolved` : `is-shadow`}">
+          <div>
+            <div style="display:flex; gap:var(--space-sm); align-items:center; flex-wrap:wrap;">
+              <span class="badge ${e.dissolved ? `badge-mint` : `badge-coral`}">${e.dissolved ? `Alchemized Gold` : e.emotion}</span>
+              <strong>${escapeHtml(e.trigger)}</strong>
+            </div>
+            <p style="margin:6px 0 4px 0; font-size:0.88rem; color:var(--on-surface-variant);">Mirror: ${escapeHtml(e.mirror)}</p>
+            <p style="margin:0; font-size:0.85rem; color:var(--primary);">${escapeHtml(e.alchemy)}</p>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:var(--space-xs);">
+            <button type="button" class="btn btn-sm ${e.dissolved ? `btn-mint` : `btn-primary`}" onclick="dissolveShadowEntry(${e.id})">
+              ${e.dissolved ? `✓ Dissolved` : `Ho’oponopono`}
+            </button>
+            <button type="button" class="btn btn-sm" onclick="removeShadowEntry(${e.id})">Delete</button>
+          </div>
+        </div>`;
+      }).join(``);
+    }
+
+    /* =====================================================================
+       LAW 9: MONK-MODE DOPAMINE DETOX TIMER
+       ===================================================================== */
+    let monkTimerInterval = null;
+    let monkRemainingSec = 3600;
+    let monkTotalSec = 3600;
+
+    function setMonkPreset(mins, label) {
+      if (monkTimerInterval) {
+        clearInterval(monkTimerInterval);
+        monkTimerInterval = null;
+        const startBtn = document.getElementById(`btn-monk-start`);
+        if (startBtn) startBtn.textContent = `Start Silence`;
+      }
+      appState.law9.modeMinutes = mins;
+      monkTotalSec = mins * 60;
+      monkRemainingSec = monkTotalSec;
+      const sub = document.getElementById(`monk-mode-sub`);
+      if (sub) sub.textContent = label.toUpperCase();
+      document.querySelectorAll(`#law-9 .chip-row .btn`).forEach(function (b) { b.classList.remove(`is-active`); });
+      const activeBtn = document.getElementById(`preset-` + mins);
+      if (activeBtn) activeBtn.classList.add(`is-active`);
+      renderMonkDisplay();
+      persistState();
+    }
+
+    function toggleMonkTimer() {
+      const btn = document.getElementById(`btn-monk-start`);
+      if (monkTimerInterval) {
+        clearInterval(monkTimerInterval);
+        monkTimerInterval = null;
+        if (btn) btn.textContent = `Resume Silence`;
+        return;
+      }
+      if (btn) btn.textContent = `Pause Detox`;
+      monkTimerInterval = setInterval(function () {
+        monkRemainingSec--;
+        renderMonkDisplay();
+        if (monkRemainingSec <= 0) {
+          clearInterval(monkTimerInterval);
+          monkTimerInterval = null;
+          appState.law9.sessionsDone++;
+          playSoftChime(432);
+          if (btn) btn.textContent = `Start Silence`;
+          const sessEl = document.getElementById(`monk-sessions-count`);
+          if (sessEl) sessEl.textContent = appState.law9.sessionsDone + ` sessions`;
+          if (appState.practicedLaws.indexOf(9) === -1) toggleLawPracticed(9);
+          persistState();
+        }
+      }, 1000);
+    }
+
+    function resetMonkTimer() {
+      if (monkTimerInterval) {
+        clearInterval(monkTimerInterval);
+        monkTimerInterval = null;
+      }
+      monkRemainingSec = monkTotalSec;
+      const btn = document.getElementById(`btn-monk-start`);
+      if (btn) btn.textContent = `Start Silence`;
+      renderMonkDisplay();
+    }
+
+    function renderMonkDisplay() {
+      const txt = document.getElementById(`monk-time-text`);
+      const ring = document.getElementById(`monk-ring`);
+      const badge = document.getElementById(`monk-phase-badge`);
+
+      const hrs = Math.floor(monkRemainingSec / 3600);
+      const mins = Math.floor((monkRemainingSec % 3600) / 60);
+      const secs = monkRemainingSec % 60;
+      if (txt) {
+        txt.textContent = hrs > 0
+          ? hrs + `:` + String(mins).padStart(2, `0`) + `:` + String(secs).padStart(2, `0`)
+          : String(mins).padStart(2, `0`) + `:` + String(secs).padStart(2, `0`);
+      }
+      if (ring) {
+        const progress = monkTotalSec > 0 ? monkRemainingSec / monkTotalSec : 1;
+        ring.setAttribute(`stroke-dashoffset`, String(578 * (1 - progress)));
+      }
+      if (badge) {
+        const elapsedHrs = (monkTotalSec - monkRemainingSec) / 3600;
+        if (!monkTimerInterval && monkRemainingSec === monkTotalSec) {
+          badge.textContent = `High-Beta Clear Ready`;
+          badge.className = `badge`;
+        } else if (elapsedHrs < 4 && monkTotalSec >= 14400) {
+          badge.textContent = `Desert Crossing · Receptor Reset`;
+          badge.className = `badge badge-coral`;
+        } else {
+          badge.textContent = `Alpha / Theta Oasis`;
+          badge.className = `badge badge-mint`;
+        }
+      }
+    }
+
+    function toggleSacredHour(period, checked) {
+      if (period === `am`) appState.law9.sacredMorning = checked;
+      if (period === `pm`) appState.law9.sacredEvening = checked;
+      persistState();
+    }
+
+    function toggleMonkRule(rule, checked) {
+      const idx = appState.law9.monkRules.indexOf(rule);
+      if (checked && idx === -1) appState.law9.monkRules.push(rule);
+      if (!checked && idx !== -1) appState.law9.monkRules.splice(idx, 1);
+      persistState();
+    }
+
+    /* =====================================================================
+       LAW 10: QUANTUM LEAP & ANTICIPATORY GRATITUDE JOURNAL
+       ===================================================================== */
+    let currentQuantumStep = 0;
+    let heartPacerInterval = null;
+    let heartTick = 0;
+
+    function stepQuantumLeap(delta) {
+      currentQuantumStep = (currentQuantumStep + delta + QUANTUM_STEPS.length) % QUANTUM_STEPS.length;
+      const step = QUANTUM_STEPS[currentQuantumStep];
+      const badge = document.getElementById(`ql-step-badge`);
+      const title = document.getElementById(`ql-step-title`);
+      const desc = document.getElementById(`ql-step-desc`);
+      if (badge) badge.textContent = `Step ` + (currentQuantumStep + 1) + ` of 5`;
+      if (title) title.textContent = step.title;
+      if (desc) desc.textContent = step.desc;
+    }
+
+    function toggleHeartCoherence() {
+      const btn = document.getElementById(`btn-heart-pacer`);
+      const bar = document.getElementById(`heart-pacer-bar`);
+      const lbl = document.getElementById(`ql-heart-timer`);
+      if (heartPacerInterval) {
+        clearInterval(heartPacerInterval);
+        heartPacerInterval = null;
+        if (btn) btn.textContent = `Start Heart Pacer`;
+        return;
+      }
+      if (btn) btn.textContent = `Stop Heart Pacer`;
+      heartTick = 0;
+      heartPacerInterval = setInterval(function () {
+        heartTick = (heartTick + 1) % 10;
+        const inhaling = heartTick < 5;
+        const pct = inhaling ? ((heartTick + 1) / 5) * 100 : ((10 - heartTick) / 5) * 100;
+        if (bar) bar.style.width = pct + `%`;
+        if (lbl) lbl.textContent = inhaling ? `Inhale Heart (${5 - heartTick}s)` : `Exhale Gratitude (${10 - heartTick}s)`;
+      }, 1000);
+    }
+
+    function previewConfirmationRewrite(val) {
+      const confInp = document.getElementById(`ql-confirm-input`);
+      if (!confInp || confInp.dataset.touched === `true`) return;
+      const clean = val.trim()
+        .replace(/^i hope (i get |to get |for )?/i, ``)
+        .replace(/^i need /i, ``)
+        .replace(/^i want /i, ``);
+      if (clean.length > 3) {
+        confInp.value = `Thank you for ` + clean.charAt(0).toLowerCase() + clean.slice(1) + ` already unfolding in harmony.`;
+      }
+    }
+
+    function applyAdversityReframe() {
+      const intInp = document.getElementById(`ql-intention-input`);
+      const confInp = document.getElementById(`ql-confirm-input`);
+      if (!intInp || !confInp) return;
+      const issue = intInp.value.trim() || `this challenge`;
+      confInp.value = `Thank you for ${issue}—I know it is clearing space for a far greater blessing and strengthening my soul.`;
+    }
+
+    function addQuantumSeed() {
+      const intInp = document.getElementById(`ql-intention-input`);
+      const confInp = document.getElementById(`ql-confirm-input`);
+      const msg = document.getElementById(`ql-msg`);
+      if (!intInp || !confInp) return;
+
+      const intention = intInp.value.trim();
+      const confirmation = confInp.value.trim();
+      if (!confirmation) {
+        if (msg) { msg.textContent = `Write an anticipatory confirmation starting with “Thank you for…”`; msg.className = `inline-msg is-error`; }
+        return;
+      }
+
+      appState.law10.entries.unshift({
+        id: Date.now(),
+        intention: intention || `Quantum Collapse`,
+        confirmation,
+        status: `sabbath`,
+        time: new Date().toLocaleDateString([], { month: `short`, day: `numeric` })
+      });
+      intInp.value = ``;
+      confInp.value = ``;
+      playSoftChime(528);
+      if (msg) { msg.textContent = `“It is done. Thank you.” Planted in the Sabbath state.`; msg.className = `inline-msg is-positive`; }
+      renderQuantumList();
+      persistState();
+    }
+
+    function toggleQuantumCollapsed(id) {
+      const item = appState.law10.entries.find(function (e) { return e.id === id; });
+      if (!item) return;
+      item.status = item.status === `collapsed` ? `sabbath` : `collapsed`;
+      if (item.status === `collapsed`) playSoftChime(600);
+      renderQuantumList();
+      persistState();
+    }
+
+    function removeQuantumSeed(id) {
+      appState.law10.entries = appState.law10.entries.filter(function (e) { return e.id !== id; });
+      renderQuantumList();
+      persistState();
+    }
+
+    function renderQuantumList() {
+      const list = document.getElementById(`ql-list`);
+      const countEl = document.getElementById(`ql-collapsed-count`);
+      const collapsed = appState.law10.entries.filter(function (e) { return e.status === `collapsed`; }).length;
+      if (countEl) countEl.textContent = collapsed + ` Collapsed in 3D`;
+      if (!list) return;
+
+      if (appState.law10.entries.length === 0) {
+        list.innerHTML = `<div class="empty-state"><strong>No Quantum Seeds planted yet</strong>Transform a desire or setback into an anticipatory “Thank you for…” confirmation and seal it in Sabbath rest.</div>`;
+        return;
+      }
+
+      list.innerHTML = appState.law10.entries.map(function (e) {
+        const isCol = e.status === `collapsed`;
+        return `<div class="entry-item ${isCol ? `is-dissolved` : ``}">
+          <div>
+            <div style="display:flex; gap:var(--space-sm); align-items:center; flex-wrap:wrap;">
+              <span class="badge ${isCol ? `badge-mint` : `badge-brass`}">${isCol ? `Collapsed in 3D` : `Sabbath Rest`}</span>
+              <span class="mono-label">${e.time}</span>
+            </div>
+            <p style="margin:6px 0 0 0; font-family:var(--font-headline); font-size:1.15rem; color:var(--on-surface);">“${escapeHtml(e.confirmation)}”</p>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:var(--space-xs);">
+            <button type="button" class="btn btn-sm ${isCol ? `btn-mint` : `btn-sky`}" onclick="toggleQuantumCollapsed(${e.id})">
+              ${isCol ? `✓ Manifested` : `Mark Collapsed`}
+            </button>
+            <button type="button" class="btn btn-sm" onclick="removeQuantumSeed(${e.id})">Delete</button>
+          </div>
+        </div>`;
+      }).join(``);
+    }
+
+    /* =====================================================================
+       DAILY CHECKLISTS & EXPORT
+       ===================================================================== */
+    function toggleChecklist(period, key, checked) {
+      if (period === `morning`) appState.morningChecks[key] = checked;
+      if (period === `evening`) appState.eveningChecks[key] = checked;
+      updateTelemetry();
+      persistState();
+    }
+
+    function exportCalibrationLog() {
+      const lvl = findClosestHawkins(appState.law1.level);
+      const circ = computeCirculationStats();
+      const lines = [
+        `DAILY VIBRATIONAL CALIBRATION LOG — ${appState.dateKey}`,
+        `==================================================`,
+        `Hawkins Calibration: ${lvl.level} (${lvl.name} · ${lvl.realm})`,
+        `Laws Practiced Today: ${appState.practicedLaws.length}/10 [${appState.practicedLaws.join(`, `)}]`,
+        `Personal I AM Decree: ${appState.law2.customIam}`,
+        `Water Charged: ${appState.law4.glassesCharged}/8 glasses | Fasting: ${appState.law4.fastingHours}h`,
+        `Microcosmic Orbit: ${appState.law6.cyclesCompleted} cycles | Retention Streak: ${appState.law6.streakDays} days`,
+        `Currency Circulation: Inhale $${circ.inhale} | Exhale $${circ.exhale} | Tithe $${circ.tithe} (${circ.flowPct}% Flow)`,
+        `Shadow Entries Integrated: ${appState.law8.entries.filter(function (e) { return e.dissolved; }).length}/${appState.law8.entries.length}`,
+        `Monk-Mode Sessions: ${appState.law9.sessionsDone}`,
+        `Quantum Seeds Planted: ${appState.law10.entries.length}`
+      ];
+      const content = lines.join(`\n`);
+      if (window.notebookAppApi && typeof window.notebookAppApi.triggerFileDownload === `function`) {
+        window.notebookAppApi.triggerFileDownload({
+          content,
+          contentType: `text/plain`,
+          encoding: `UTF-8`,
+          filename: `vibrational-calibration-${appState.dateKey}.txt`
+        });
+      } else {
+        const blob = new Blob([content], { type: `text/plain` });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement(`a`);
+        a.href = url;
+        a.download = `vibrational-calibration-${appState.dateKey}.txt`;
+        a.click();
+        URL.revokeObjectURL(url);
+      }
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, `&amp;`)
+        .replace(/</g, `&lt;`)
+        .replace(/>/g, `&gt;`)
+        .replace(/"/g, `&quot;`)
+        .replace(/'/g, `&#39;`);
+    }
+
+    /* =====================================================================
+       RESTORE & STARTUP BOOTSTRAP
+       ===================================================================== */
+    function restoreUI() {
+      const dateLbl = document.getElementById(`today-date-label`);
+      if (dateLbl) dateLbl.textContent = `Session · ` + appState.dateKey;
+
+      renderLawNavigator();
+      setHawkinsLevel(appState.law1.level);
+
+      [`finances`, `relationships`, `health`, `silence`].forEach(function (d) {
+        const slider = document.getElementById(`diag-` + d);
+        if (slider) slider.value = String(appState.law1[d]);
+        updateDomainDiagnosis(d, appState.law1[d]);
+      });
+
+      const decEl = document.getElementById(`decree-active-text`);
+      if (decEl) decEl.textContent = DECREE_LINES[appState.law2.activeDecreeIdx % DECREE_LINES.length];
+      const iamInp = document.getElementById(`custom-iam-input`);
+      if (iamInp) iamInp.value = appState.law2.customIam;
+
+      renderAuditList();
+
+      const waterSel = document.getElementById(`water-intention-select`);
+      if (waterSel) waterSel.value = appState.law4.intention;
+      renderWaterBadges();
+
+      appState.law5.checkedSymptoms.forEach(function (sym) {
+        const cb = document.getElementById(`sym-` + sym);
+        if (cb) cb.checked = true;
+      });
+
+      const orbTotal = document.getElementById(`orbit-cycles-total`);
+      if (orbTotal) orbTotal.textContent = String(appState.law6.cyclesCompleted);
+      const streakEl = document.getElementById(`retention-streak-display`);
+      if (streakEl) streakEl.textContent = appState.law6.streakDays + ` Days`;
+      const turbInp = document.getElementById(`orbit-turbine-goal`);
+      if (turbInp) turbInp.value = appState.law6.lastFocusGoal;
+
+      renderCirculation();
+      updateShadowAlchemyPreview(`anger`);
+      renderShadowList();
+
+      setMonkPreset(appState.law9.modeMinutes || 60, `Sacred Hour`);
+      const sAm = document.getElementById(`sacred-am`);
+      const sPm = document.getElementById(`sacred-pm`);
+      if (sAm) sAm.checked = !!appState.law9.sacredMorning;
+      if (sPm) sPm.checked = !!appState.law9.sacredEvening;
+      [`screens`, `audio`, `boredom`].forEach(function (r) {
+        const el = document.getElementById(`rule-` + (r === `boredom` ? `boredom` : `no-` + r));
+        if (el) el.checked = appState.law9.monkRules.indexOf(r) !== -1;
+      });
+      const sessEl = document.getElementById(`monk-sessions-count`);
+      if (sessEl) sessEl.textContent = appState.law9.sessionsDone + ` sessions`;
+
+      renderQuantumList();
+
+      const amMap = { truth: `chk-am-truth`, decree: `chk-am-decree`, water: `chk-am-water`, orbit: `chk-am-orbit`, quantum: `chk-am-quantum` };
+      Object.keys(amMap).forEach(function (k) {
+        const el = document.getElementById(amMap[k]);
+        if (el) el.checked = !!appState.morningChecks[k];
+      });
+      const pmMap = { audit: `chk-pm-audit`, circulation: `chk-pm-circ`, shadow: `chk-pm-shadow`, sacredHour: `chk-pm-hour`, gratitude: `chk-pm-grat` };
+      Object.keys(pmMap).forEach(function (k) {
+        const el = document.getElementById(pmMap[k]);
+        if (el) el.checked = !!appState.eveningChecks[k];
+      });
+
+      updateTelemetry();
+    }
+
+    async function initApp() {
+      initHawkinsUI();
+      initCymaticParticles();
+
+      try {
+        if (window.notebookAppApi && typeof window.notebookAppApi.getAppState === `function`) {
+          const saved = await window.notebookAppApi.getAppState();
+          if (saved) mergeState(saved);
+        }
+      } catch (e) {
+        // Proceed with defaults if unavailable
+      }
+
+      restoreUI();
+
+      if (window.lucide && typeof window.lucide.createIcons === `function`) {
+        window.lucide.createIcons();
+      }
+
+      renderCymatics();
+      renderEntrainmentWave();
+      renderWaterCanvas();
+      renderPendulum();
+
+      if (window.notebookAppApi && typeof window.notebookAppApi.notifyAppReady === `function`) {
+        window.notebookAppApi.notifyAppReady();
+      }
+    }
+
+    document.addEventListener(`DOMContentLoaded`, initApp);
+  </script>
+</body>
+</html>
